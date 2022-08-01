@@ -17,3 +17,71 @@
 
   100%
     transform: translateY(0px)
+
+
+
+
+  
+//Banner interno 
+.banner-interno__fondo
+  background-image: url('../assets/curso/portada/banner-interno.png') !important
+
+
+
+
+
+
+
+// COMPONENTE DE TRADUCTOR
+.contenedor-traductor
+  position: relative
+  background-color: #fff1f1
+  padding: 2em
+  border-radius: 10px
+  transition: height 0.5s ease-in-out
+  &__esp
+    border-top: 3px solid #69727c
+    padding-top: 1em
+  .boton-traduccion
+    position: absolute
+    bottom: 0
+    right: 0
+    color: $white
+    transform: translateY(100%) translateX(-13%)
+    background-color: #5683f0
+    border-radius: 0px 0px 10px 10px
+    padding: 0.5em 1em
+    cursor: pointer
+    &:hover
+      background-color: darken(#5683f0, 2 )
+.mostrar
+  display: none
+
+
+
+//Contenedor FRANJA 
+.contenedor-franja
+  position: relative
+  .franja
+    background-color: $color-acento-botones
+    height: 80%
+    width: 100%
+    position: absolute
+    bottom: 0
+    left: 0
+  .franja1
+    background-color: $color-acento-botones
+    height: 80%
+    width: 100%
+    position: absolute
+    bottom: 0
+    left: 0
+    @media (min-width: $bp-min-lg)
+      margin-left: 10rem
+  .contenido
+    position: relative
+
+
+// Card Audio Top
+
+.card-audio-top
