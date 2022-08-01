@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'You’re the best! / ¡Tú eres el mejor!',
+    descripcionCurso:
+      'En este documento, se presentan contenidos referidos al uso del tiempo presente simple de los verbos, para hablar de acciones actuales que no están limitadas a un momento específico. También se manejarán los adjetivos calificativos, que le van a permitir establecer diferencias y similitudes entre seres vivos, objetos y lugares, con base en las características observadas, utilizando los comparativos y superlativos, haciendo uso del vocabulario requerido.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
