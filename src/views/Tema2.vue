@@ -90,19 +90,19 @@
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/38.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="This is a beautiful baby."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/17.mp3')"
               )  
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/39.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Grace is very smart."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/18.mp3')"
               )  
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/40.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Jimmy is a strong boy."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/19.mp3')"
               )  
       .py-4.py-md-5(titulo="States / Estados" :icono="require('@/assets/curso/temas/53.svg')")
         .row.justify-content-center.mb-5
@@ -110,19 +110,19 @@
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/41.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Molly is a happy girl."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/20.mp3')"
               )  
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/42.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="George feels furious."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/21.mp3')"
               )  
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/43.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Lucas has a calm temperament."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/22.mp3')"
               )  
       .py-4.py-md-5(titulo="Attitudes / Actitudes" :icono="require('@/assets/curso/temas/54.svg')")
         .row.justify-content-center.mb-5
@@ -130,19 +130,19 @@
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/44.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Marge is sympathetic with her children."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/23.mp3')"
               )  
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/45.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Peter is an enthusiastic human rights activist."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/24.mp3')"
               )  
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/46.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="The teacher is very patient with her students."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/25.mp3')"
               )  
       .py-4.py-md-5(titulo="Possibilities / Posibilidades" :icono="require('@/assets/curso/temas/55.svg')")
         .row.justify-content-center.mb-5
@@ -150,19 +150,19 @@
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/47.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="It’s likely to rain today."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/26.mp3')"
               )  
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/48.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="The chances of winning are slim."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/27.mp3')"
               )  
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/49.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="It’s incredible that you’re here. "
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/28.mp3')"
               )  
       .py-4.py-md-5(titulo="Nationality / Nacionalidad" :icono="require('@/assets/curso/temas/56.svg')")
         .row.justify-content-center.mb-5
@@ -170,19 +170,19 @@
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/50.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Nicole is French."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/29.mp3')"
               )  
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/51.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Paula is a Brazilian athlete."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/30.mp3')"
               )  
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/52.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Pierina is the Italian candidate."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/31.mp3')"
               )  
     p.mb-5(data-aos='fade-right') Para poder establecer una comparación en el idioma inglés, se utilizan diversas cualidades, que se pueden expresar a través de tres diferentes grados de los adjetivos, como se verá a continuación:
     h3 <em>Degrees of the adjective.</em> / Grados del adjetivo.
@@ -227,7 +227,7 @@
             span.r-4.fst-italic Is more beautiful than
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Mary’s house is more beautiful than Betty’s house"
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/32.mp3')"
               )  
           p.ms-4 La casa de Mary es más bonita que la casa de Betty.
       .col-lg-4.mb-lg-0.mb-3
@@ -237,7 +237,7 @@
             span.r-4.fst-italic Is less attentive than 
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Felix is less attentive than Joseph."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/33.mp3')"
               )  
           p.ms-4 Félix es menos atento que Joseph.
       .col-lg-4.mb-lg-0.mb-3
@@ -247,7 +247,7 @@
             span.r-4.fst-italic Is as productive as
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="This company is as productive as that one"
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/34.mp3')"
               )  
           p.ms-4 Tú te levantas a las seis en punto.
     .row.justify-content-center.mb-5
@@ -258,7 +258,7 @@
             span.r-4.fst-italic Is bigger than
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="This bull is bigger than this cow."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/35.mp3')"
               )  
           p.ms-4 Este toro es más grande que esta vaca.
       .col-lg-4.mb-lg-0.mb-3
@@ -268,7 +268,7 @@
             span.r-4.fst-italic is less heavy than
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="That backpack is less heavy than yours. "
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/36.mp3')"
               )  
           p.ms-4 Ese morral está menos pesado que el tuyo.
     h3 <em>Comparative adjectives of equality.</em> / Adjetivos comparativos de igualdad.
@@ -311,7 +311,7 @@
             | / Para la estructura as much…as:
           .tarjeta-audio-botton
             div.flex-grow-1(style='background-color: #ffe891').d-flex.align-items-center.justify-content-center.px-3
-              Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/1.mp3')")
+              Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/39.mp3')")
             div.d-flex.flex-grow-1.p-4.w-100.justify-content-center.flex-wrap(style='background-color: #a6bbff')
               .d-flex.align-items-center.flex-wrap.mb-lg-0.mb-3.m-2
                 img(src='@/assets/curso/temas/69.svg', alt='' style='width: 54px').me-4
@@ -341,7 +341,7 @@
           img.mb-4(src='@/assets/curso/temas/72.svg', alt='')
           .tarjeta-audio-botton
             div.flex-grow-1(style='background-color: #c4d1ff').d-flex.align-items-center.justify-content-center.px-3
-              Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/1.mp3')")
+              Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/42.mp3')")
             div.d-flex.flex-grow-1.p-4.w-100.justify-content-center.flex-wrap(style='background-color: #ffe891')
               .d-flex.align-items-center.flex-wrap.mb-lg-0.mb-3.m-2
                 img(src='@/assets/curso/temas/74.svg', alt='' style='width: 54px').me-4
@@ -389,7 +389,7 @@
         .col-lg-8
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
           texto=""
-          :audio="require('@/assets/audios/tema1/1.mp3')"
+          :audio="require('@/assets/audios/tema1/45.mp3')"
           ) 
     h3 <em>Comparative adjectives of superiority.</em> / Adjetivos comparativos de superioridad.
     p.mb-5(data-aos='fade-right')
@@ -406,7 +406,7 @@
             img(src='@/assets/curso/temas/81.svg', alt='' ).me-4.mb-3
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Pierre is more efficient than Mary in the office."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/47.mp3')"
               ) 
             p Pierre es más eficiente que Mary en la oficina.
         .col-lg-4
@@ -414,7 +414,7 @@
             img(src='@/assets/curso/temas/82.svg', alt='' ).me-4.mb-3
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Silvia is more organized than Billy at school."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/48.mp3')"
               ) 
             p Silvia es más ordenada que Billy en la escuela.
         .col-lg-4
@@ -422,7 +422,7 @@
             img(src='@/assets/curso/temas/83.svg', alt='' ).me-4.mb-3
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Caroline is more interesting than Betty."
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/49.mp3')"
               ) 
             p Caroline es más interesante que Betty.
     .contenedor-franja.margin-n.mb-5
@@ -452,25 +452,25 @@
               .col-lg-3
                 TarjetaAudio.color-primario.bg-white.mb-3(
                 texto="thin → thinner"
-                :audio="require('@/assets/audios/tema1/1.mp3')"
+                :audio="require('@/assets/audios/tema1/50.mp3')"
                 ) 
                 p.text-white delgado → más delgado
               .col-lg-3
                 TarjetaAudio.color-primario.bg-white.mb-3(
                 texto="fat → fatter"
-                :audio="require('@/assets/audios/tema1/1.mp3')"
+                :audio="require('@/assets/audios/tema1/51.mp3')"
                 ) 
                 p.text-white gordo → más gordo
               .col-lg-3
                 TarjetaAudio.color-primario.bg-white.mb-3(
                 texto="big → bigger"
-                :audio="require('@/assets/audios/tema1/1.mp3')"
+                :audio="require('@/assets/audios/tema1/52.mp3')"
                 ) 
                 p.text-white grande → más grande
               .col-lg-3
                 TarjetaAudio.color-primario.bg-white.mb-3(
                 texto="small. → smaller"
-                :audio="require('@/assets/audios/tema1/1.mp3')"
+                :audio="require('@/assets/audios/tema1/53.mp3')"
                 ) 
                 p.text-white pequeño → más pequeño
     p.mb-5(data-aos='fade-right') Observe algunos ejemplos con los adjetivos comparativos de superioridad:
@@ -515,7 +515,7 @@
         .card-audio-bg2.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/87.jpg')})`}")
           .tarjeta.bg-white.p-4
             .d-flex.justify-content-center 
-              Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/1.mp3')")
+              Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/54.mp3')")
             p.text-center
               span.r-1.fst-italic The most beautiful woman in the universe.
               br
@@ -524,7 +524,7 @@
         .card-audio-bg2.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/88.jpg')})`}")
           .tarjeta.bg-white.p-4
             .d-flex.justify-content-center 
-              Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/1.mp3')")
+              Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/55.mp3')")
             p.text-center
               span.r-1.fst-italic The smartest student in school.
               br
@@ -533,7 +533,7 @@
         .card-audio-bg2.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/89.jpg')})`}")
           .tarjeta.bg-white.p-4
             .d-flex.justify-content-center 
-              Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/1.mp3')")
+              Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/56.mp3')")
             p.text-center
               span.r-1.fst-italic The largest house in the neighborhood.
               br
@@ -542,7 +542,7 @@
         .card-audio-bg2.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/90.jpg')})`}")
           .tarjeta.bg-white.p-4
             .d-flex.justify-content-center 
-              Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/1.mp3')")
+              Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/57.mp3')")
             p.text-center
               span.r-1.fst-italic The cutest kitten in the litter.
               br
@@ -654,7 +654,7 @@
                     | Tu habitación es más brillante que la mía.
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/58.mp3')"
               ) 
       .tarjeta(style='background-color: #ecf1ff')
         .row.justify-content-center.align-items-end.mb-5
@@ -716,7 +716,7 @@
                     | El vestido azul es el más brillante que tú tienes.
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/59.mp3')"
               ) 
       .tarjeta(style='background-color: #fff1f1')
         .row.justify-content-center.align-items-end.mb-5
@@ -778,7 +778,7 @@
                     | En esta ciudad, el aire es más raro que en las montañas.
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/60.mp3')"
               ) 
       .tarjeta(style='background-color: #fff1f1')
         .row.justify-content-center.align-items-end.mb-5
@@ -840,7 +840,7 @@
                     | Esta es la piedra más rara que he encontrado en el río.
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/61.mp3')"
               ) 
       .tarjeta(style='background-color: #fff7da')
         .row.justify-content-center.align-items-end.mb-5
@@ -894,7 +894,7 @@
                     | Estas ropas están más húmedas que las tuyas.
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/62.mp3')"
               ) 
       .tarjeta(style='background-color: #fff7da')
         .row.justify-content-center.align-items-end.mb-5
@@ -948,7 +948,7 @@
                     | Este es el sitio más húmedo en la casa.
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/63.mp3')"
               ) 
             
       .tarjeta(style='background-color: #e1e8ff')
@@ -1011,7 +1011,7 @@
                     | La comida que pediste hoy está más salada que la que yo pedí ayer.
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/64.mp3')"
               ) 
       .tarjeta(style='background-color: #e1e8ff')
         .row.justify-content-center.align-items-end.mb-5
@@ -1073,7 +1073,7 @@
                     | Esta comida es la más salada en este restaurante.
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/65.mp3')"
               ) 
       .tarjeta(style='background-color: #fff7da')
         .row.justify-content-center.align-items-end.mb-5
@@ -1140,7 +1140,7 @@
                     | Peter es el más guapo.
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/66.mp3')"
               ) 
       .tarjeta(style='background-color: #fff7da')
         .row.justify-content-center.align-items-end.mb-5
@@ -1195,7 +1195,7 @@
                     | El suéter es el más caro.
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/67.mp3')"
               ) 
       .tarjeta(style='background-color: #fff7da')
         .row.justify-content-center.align-items-end.mb-5
@@ -1250,7 +1250,7 @@
                     | James es el más cortés. 
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/68.mp3')"
               ) 
     h4 <b>Irregular adjectives.</b> / Adjetivos irregulares.
     p.mb-5(data-aos='fade-right') 
@@ -1272,7 +1272,7 @@
             .tarjeta.rounded-0.color-secundario.p-3
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/69.mp3')"
               ) 
             .table-title.p-3.mb-4
               p.text-center.fw-bold.mb-0
@@ -1312,7 +1312,7 @@
             .tarjeta.rounded-0.color-secundario.p-3
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/70.mp3')"
               ) 
             .table-title.p-3.mb-4
               p.text-center.fw-bold.mb-0
@@ -1352,7 +1352,7 @@
             .tarjeta.rounded-0.color-secundario.p-3
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/71.mp3')"
               ) 
             .table-title.p-3.mb-4
               p.text-center.fw-bold.mb-0
@@ -1392,7 +1392,7 @@
             .tarjeta.rounded-0.color-secundario.p-3
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/72.mp3')"
               ) 
             .table-title.p-3.mb-4
               p.text-center.fw-bold.mb-0

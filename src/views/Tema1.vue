@@ -156,7 +156,7 @@
         .col-lg-8
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/2.mp3')"
           )
     #t_1_2.titulo-segundo.color-primario(data-aos='fade-right')
       h2 1.2. Simple present tense form (Forma del tiempo presente simple)
@@ -181,7 +181,7 @@
             
             tr
               th(colspan='5' :style="{'background-image': `url(${require('@/assets/curso/temas/19.svg')})`}").bg-table-audio
-                Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/1.mp3')")
+                Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/3.mp3')")
             tbody.text-center
               tr.fw-bold
                 td(colspan='2') Persona gramatical
@@ -289,7 +289,7 @@
             
             tr
               th(colspan='5' :style="{'background-image': `url(${require('@/assets/curso/temas/20.svg')})`}").bg-table-audio
-                Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/1.mp3')")
+                Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/4.mp3')")
             tbody.text-center
               tr.fw-bold
                 td(colspan='2') Persona gramatical
@@ -397,7 +397,7 @@
             
             tr
               th(colspan='5' :style="{'background-image': `url(${require('@/assets/curso/temas/21.svg')})`}").bg-table-audio
-                Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/1.mp3')")
+                Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/5.mp3')")
             tbody.text-center
               tr.fw-bold
                 td(colspan='2') Persona gramatical
@@ -507,7 +507,7 @@
             
             tr
               th(colspan='4' :style="{'background-image': `url(${require('@/assets/curso/temas/22.svg')})`}").bg-table-audio
-                Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/1.mp3')")
+                Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/6.mp3')")
             tbody.text-center
               tr.bg-purple
                 td Terminación del verbo
@@ -576,7 +576,7 @@
             
             tr
               th(colspan='5' :style="{'background-image': `url(${require('@/assets/curso/temas/24.svg')})`}").bg-table-audio
-                Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/1.mp3')")
+                Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/7.mp3')")
             tbody.text-center
               tr.fw-bold
                 td(colspan='2') Persona gramatical
@@ -713,7 +713,7 @@
             
             tr
               th(colspan='4' :style="{'background-image': `url(${require('@/assets/curso/temas/26.svg')})`}").bg-table-audio
-                Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/1.mp3')")
+                Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/8.mp3')")
             tbody.text-center
               tr
                 td 
@@ -833,7 +833,7 @@
             
             tr
               th(colspan='4' :style="{'background-image': `url(${require('@/assets/curso/temas/28.svg')})`}").bg-table-audio
-                Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/1.mp3')")
+                Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/9.mp3')")
             tbody.text-center
               tr
                 td.bg-rc  
@@ -1000,7 +1000,7 @@
         .tarjeta.color-secundario.h-100.p-5
           .card-audio-top.p-4.d-flex.flex-column.justify-content-center.mb-4(style='background-color: #f3f6ff ; border-radius: 20px')
             img(src='@/assets/curso/temas/31.svg', alt='' style='width:98px').m-auto.mb-4
-            Audio.d-inline-block.color-primario.mb-3.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+            Audio.d-inline-block.color-primario.mb-3.m-auto(:audio="require('@/assets/audios/tema1/13.mp3')")
             p.text-center.mb-1
               span.r-1.fst-italic James helps her friend.
               br
@@ -1018,7 +1018,7 @@
         .tarjeta.color-acento-contenido.h-100.p-5
           .card-audio-top.p-3.d-flex.flex-column.justify-content-center.mb-4(style='background-color: #f3f6ff ; border-radius: 20px')
             img(src='@/assets/curso/temas/31.svg', alt='' style='width:98px').m-auto.mb-4
-            Audio.d-inline-block.color-primario.mb-3.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+            Audio.d-inline-block.color-primario.mb-3.m-auto(:audio="require('@/assets/audios/tema1/14.mp3')")
             p.text-center.mb-1
               span.r-1.fst-italic Billy plays the piano every day.
               br
@@ -1036,7 +1036,7 @@
         .tarjeta.color-primario.h-100.p-5
           .card-audio-top.p-3.px-2.d-flex.flex-column.justify-content-center.mb-4(style='background-color: #f3f6ff ; border-radius: 20px')
             img(src='@/assets/curso/temas/31.svg', alt='' style='width:98px').m-auto.mb-4
-            Audio.d-inline-block.color-primario.mb-3.m-auto(:audio="require('@/assets/audios/tema1/1.mp3')")
+            Audio.d-inline-block.color-primario.mb-3.m-auto(:audio="require('@/assets/audios/tema1/15.mp3')")
             p.text-center.mb-1
               span.r-1.fst-italic Michael fixes the car
               br
@@ -1062,7 +1062,7 @@
               |A continuación, se presenta un audio con las actividades que realiza Joe en un día, el cual incluye los verbos en presente simple con terminaciones en letra final “s” cuya pronunciación incluye /s/, /z/ y /iz/. Puede escucharlo varias veces y realizar prácticas de repetición de la pronunciación de estos sonidos.
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/1.mp3')"
+              :audio="require('@/assets/audios/tema1/16.mp3')"
             ) 
         .col-lg-3.d-none.d-lg-block: img(data-aos='zoom-in-up')(src='@/assets/curso/temas/32.svg', alt='')
     p.mb-5(data-aos='fade-right') A continuación, escuche el siguiente diálogo, en el cual se aplica lo estudiado en el tema
