@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69" height="69" viewBox="0 0 69 69">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_35802" data-name="Rectángulo 35802" width="69" height="69" transform="translate(600 6285)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="_74" data-name="74" transform="translate(-600 -6285)" clip-path="url(#clip-path)">
+    <g id="Page-1" transform="translate(600 6285.575)">
+      <g id="_070---Notebooks" data-name="070---Notebooks">
+        <path id="Shape" d="M49.45,2.3V9.2L21.85,58.65H4.6A1.15,1.15,0,0,1,3.45,57.5V2.3A1.15,1.15,0,0,1,4.6,1.15H48.3A1.15,1.15,0,0,1,49.45,2.3Z" fill="#0377bc"/>
+        <path id="Shape-2" data-name="Shape" d="M46,2.3V9.2L18.4,58.65H4.6A1.15,1.15,0,0,1,3.45,57.5V2.3A1.15,1.15,0,0,1,4.6,1.15H44.85A1.15,1.15,0,0,1,46,2.3Z" fill="#02a9f4"/>
+        <rect id="Rectangle-path" width="46" height="57.5" rx="1.15" transform="translate(21.85 9.2)" fill="#c81e1e"/>
+        <rect id="Rectangle-path-2" data-name="Rectangle-path" width="42.55" height="57.5" rx="1.15" transform="translate(21.85 9.2)" fill="#f44335"/>
+        <rect id="Rectangle-path-3" data-name="Rectangle-path" width="34.5" height="20.7" rx="1.15" transform="translate(28.75 26.45)" fill="#fdd834"/>
+        <path id="Shape-3" data-name="Shape" d="M63.25,27.6V46a1.15,1.15,0,0,1-1.15,1.15H51.75V26.45H62.1A1.15,1.15,0,0,1,63.25,27.6Z" fill="#dfc49c"/>
+        <path id="Shape-4" data-name="Shape" d="M59.8,27.6V46a1.15,1.15,0,0,1-1.15,1.15h-6.9V26.45h6.9A1.15,1.15,0,0,1,59.8,27.6Z" fill="#ffe0b2"/>
+        <path id="Shape-5" data-name="Shape" d="M66.7,67.85H23a2.3,2.3,0,0,1-2.3-2.3V10.35A2.3,2.3,0,0,1,23,8.05H66.7a2.3,2.3,0,0,1,2.3,2.3v55.2A2.3,2.3,0,0,1,66.7,67.85ZM23,10.35v55.2H66.7V10.35Z"/>
+        <path id="Shape-6" data-name="Shape" d="M62.1,48.3H29.9A2.3,2.3,0,0,1,27.6,46V27.6a2.3,2.3,0,0,1,2.3-2.3H62.1a2.3,2.3,0,0,1,2.3,2.3V46A2.3,2.3,0,0,1,62.1,48.3ZM29.9,27.6V46H62.1V27.6Z"/>
+        <path id="Shape-7" data-name="Shape" d="M62.1,48.3H51.75a1.15,1.15,0,0,1-1.15-1.15V26.45a1.15,1.15,0,0,1,1.15-1.15H62.1a2.3,2.3,0,0,1,2.3,2.3V46A2.3,2.3,0,0,1,62.1,48.3ZM52.9,46h9.2V27.6H52.9Z"/>
+        <path id="Shape-8" data-name="Shape" d="M28.75,62.1a1.15,1.15,0,0,1-1.15-1.15V57.5a1.15,1.15,0,1,1,2.3,0v3.45A1.15,1.15,0,0,1,28.75,62.1Z"/>
+        <path id="Shape-9" data-name="Shape" d="M32.2,62.1a1.15,1.15,0,0,1-1.15-1.15V57.5a1.15,1.15,0,1,1,2.3,0v3.45A1.15,1.15,0,0,1,32.2,62.1Z"/>
+        <path id="Shape-10" data-name="Shape" d="M35.65,62.1a1.15,1.15,0,0,1-1.15-1.15V57.5a1.15,1.15,0,1,1,2.3,0v3.45A1.15,1.15,0,0,1,35.65,62.1Z"/>
+        <path id="Shape-11" data-name="Shape" d="M39.1,62.1a1.15,1.15,0,0,1-1.15-1.15V57.5a1.15,1.15,0,1,1,2.3,0v3.45A1.15,1.15,0,0,1,39.1,62.1Z"/>
+        <path id="Shape-12" data-name="Shape" d="M24.15,14.95h-4.6a1.15,1.15,0,0,1,0-2.3h4.6a1.15,1.15,0,0,1,0,2.3Z"/>
+        <path id="Shape-13" data-name="Shape" d="M24.15,21.85h-4.6a1.15,1.15,0,0,1,0-2.3h4.6a1.15,1.15,0,0,1,0,2.3Z"/>
+        <path id="Shape-14" data-name="Shape" d="M24.15,28.75h-4.6a1.15,1.15,0,0,1,0-2.3h4.6a1.15,1.15,0,0,1,0,2.3Z"/>
+        <path id="Shape-15" data-name="Shape" d="M24.15,35.65h-4.6a1.15,1.15,0,1,1,0-2.3h4.6a1.15,1.15,0,1,1,0,2.3Z"/>
+        <path id="Shape-16" data-name="Shape" d="M24.15,42.55h-4.6a1.15,1.15,0,1,1,0-2.3h4.6a1.15,1.15,0,1,1,0,2.3Z"/>
+        <path id="Shape-17" data-name="Shape" d="M24.15,49.45h-4.6a1.15,1.15,0,0,1,0-2.3h4.6a1.15,1.15,0,0,1,0,2.3Z"/>
+        <path id="Shape-18" data-name="Shape" d="M24.15,56.35h-4.6a1.15,1.15,0,1,1,0-2.3h4.6a1.15,1.15,0,1,1,0,2.3Z"/>
+        <path id="Shape-19" data-name="Shape" d="M24.15,63.25h-4.6a1.15,1.15,0,0,1,0-2.3h4.6a1.15,1.15,0,0,1,0,2.3Z"/>
+        <path id="Shape-20" data-name="Shape" d="M21.85,59.8H4.6a2.3,2.3,0,0,1-2.3-2.3V2.3A2.3,2.3,0,0,1,4.6,0H48.3a2.3,2.3,0,0,1,2.3,2.3V9.2a1.15,1.15,0,1,1-2.3,0V2.3H4.6V57.5H21.85a1.15,1.15,0,1,1,0,2.3Z"/>
+        <path id="Shape-21" data-name="Shape" d="M5.75,6.9H1.15a1.15,1.15,0,1,1,0-2.3h4.6a1.15,1.15,0,0,1,0,2.3Z"/>
+        <path id="Shape-22" data-name="Shape" d="M5.75,13.8H1.15a1.15,1.15,0,1,1,0-2.3h4.6a1.15,1.15,0,0,1,0,2.3Z"/>
+        <path id="Shape-23" data-name="Shape" d="M5.75,20.7H1.15a1.15,1.15,0,1,1,0-2.3h4.6a1.15,1.15,0,1,1,0,2.3Z"/>
+        <path id="Shape-24" data-name="Shape" d="M5.75,27.6H1.15a1.15,1.15,0,1,1,0-2.3h4.6a1.15,1.15,0,1,1,0,2.3Z"/>
+        <path id="Shape-25" data-name="Shape" d="M5.75,34.5H1.15a1.15,1.15,0,1,1,0-2.3h4.6a1.15,1.15,0,1,1,0,2.3Z"/>
+        <path id="Shape-26" data-name="Shape" d="M5.75,41.4H1.15a1.15,1.15,0,1,1,0-2.3h4.6a1.15,1.15,0,1,1,0,2.3Z"/>
+        <path id="Shape-27" data-name="Shape" d="M5.75,48.3H1.15a1.15,1.15,0,1,1,0-2.3h4.6a1.15,1.15,0,1,1,0,2.3Z"/>
+        <path id="Shape-28" data-name="Shape" d="M5.75,55.2H1.15a1.15,1.15,0,1,1,0-2.3h4.6a1.15,1.15,0,1,1,0,2.3Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

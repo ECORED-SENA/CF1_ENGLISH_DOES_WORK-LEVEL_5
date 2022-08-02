@@ -7,8 +7,8 @@ export default {
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/flag.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
@@ -33,14 +33,29 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: '<em>Simple present tense</em> (Tiempo presente simple)',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo:
+              '<em>Simple present tense function</em> (Función del tiempo presente simple)',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo:
+              '<em>Simple present tense form</em> (Forma del tiempo presente simple)',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo:
+              '<em>Simple present tense pronunciation</em> (Pronunciación del tiempo presente simple)',
+            hash: 't_1_3',
           },
         ],
       },
@@ -49,15 +64,22 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: '<em>Qualifying adjectives</em> (Adjetivos calificativos)',
         desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: '<em>Comparative adjectives</em> (Adjetivos comparativos)',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: '<em>Superlative adjectives</em> (Adjetivos superlativos)',
+            hash: 't_2_2',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -67,12 +89,12 @@ export default {
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
       },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -102,32 +124,61 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema:
+        'Simple present tense function (Función del tiempo presente simple)',
+      referencia:
+        'McLellan, C. (2019). ¿Cómo y cuándo se usa el "presente simple" en inglés? British Council España. ',
+      tipo: 'Artículo',
+      link: 'https://www.britishcouncil.es/blog/presente-simple',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Comparative adjectives (Adjetivos comparativos)',
+      referencia:
+        'Ochoa, F. [Inglés Fácil]. (s. f.). 4 Reglas básicas del COMPARATIVO en inglés – Muy bien explicado | Clases inglés [Video]. YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=9KIiaLupHuA',
+    },
+    {
+      tema: 'Qualifying adjectives (Adjetivos calificativos)',
+      referencia:
+        'Boyd, C. (2018). ¿Cómo formar comparativos y superlativos en inglés? British Council España.',
+      tipo: 'Artículo',
+      link:
+        'https://www.britishcouncil.es/blog/como-formar-comparativos-superlativos-ingles',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: '<em>Adjectives</em>/Adjetivos',
+      significado:
+        'son palabras variables que indican características de las personas, los animales y las cosas. Básicamente, se utilizan para describir los sustantivos.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: '<em>Comparatives</em>/Comparativos',
+      significado:
+        'son palabras que se utilizan para expresar una comparación de cualidades entre dos elementos.',
+    },
+    {
+      termino: '<em>Superlatives</em>/Superlativos',
+      significado:
+        'son aquellos adjetivos que sirven para indicar la descripción de un objeto, persona, animal o lugar que se ubica en el extremo superior o inferior de una determinada cualidad.',
+    },
+    {
+      termino: '<em>Present tense</em>/Tiempo presente',
+      significado: 'Present tense/Tiempo presente',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'González, A. y Sierra, N. (2008). Retos y posibilidades de la enseñanza del inglés basada en contenidos en la educación superior: visión de los docentes en una experiencia en Colombia. Núcleo, 20(25), p. 125-148. ',
+      link:
+        'http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S0798-97842008000100007&lng=es&tlng=es',
+    },
+    {
+      referencia:
+        'English Made Easy with Caroline. (2019). Pronunciation for -s Ending Verbs in the Simple Present Tense + Nouns [Video]. YouTube.',
+      link: 'https://youtu.be/671v4Iwg9Ao',
     },
   ],
   creditos: {
@@ -145,6 +196,27 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
+      {
+        nombre: 'Miguel Ángel Cárdenas López',
+        cargo: 'Experto Temático',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Gloria Lida Alzate Suárez',
+        cargo: 'Diseñador Instruccional',
+        centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
+      },
+      {
+        nombre: 'Ana Catalina Córdoba Sus',
+        cargo: 'Asesora Metodológica',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital  ',
+      },
+      {
+        nombre: 'Darío González',
+        cargo: 'Corrector de Estilo',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -154,7 +226,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Yuly Andrea Rey Quiñonez',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -166,7 +238,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Camilo Andres Bolaño Rey',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
