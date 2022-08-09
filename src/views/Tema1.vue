@@ -65,7 +65,7 @@
               :audio="require('@/assets/audios/tema1/1.mp3')"
             )      
     #t_1_1.titulo-segundo.color-primario(data-aos='fade-right')
-      h2 1.1. Simple present tense function (Función del tiempo presente simple)
+      h2 1.1. <em>Simple present tense function</em> (Función del tiempo presente simple)
     p.mb-5(data-aos='fade-right')
       span.r-4.fst-italic.fw-normal
         | The simple present tense in English allows us to express that a situation occurs at that moment (although not at the same moment it is spoken), or that it repeats itself in time.
@@ -159,16 +159,26 @@
               :audio="require('@/assets/audios/tema1/2.mp3')"
           )
     #t_1_2.titulo-segundo.color-primario(data-aos='fade-right')
-      h2 1.2. Simple present tense form (Forma del tiempo presente simple)
+      h2 1.2. <em>Simple present tense form</em> (Forma del tiempo presente simple)
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/18.png', alt='')
       .col-lg-7.mb-lg-0.mb-3
         .contenedor-traductor
           .contenedor-traductor__eng
             p
-              span.r-1.fst-italic When speaking or writing about a topic or current situation, the simple present tense is the verb tense that is used, as it is essential when it is necessary to describe habitual actions that happen with a certain frequency. However, it does not refer to the activity or action that is happening at the present time (the present continuous tense is used for this).
+              span.r-1.fst-italic The simple present tense is conjugated using the basic form of the verb (it is the same as the infinitive, but without the word “to”). It is of great importance to consider that when a verb is conjugated in the third-person singular, an "s" must be added at the end.
+                br
+                br
+                |In the following table, you can see the form of conjugation, which will depend on the subject or grammatical person being spoken about, taking into account whether it is in a singular or plural number.
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp2}")
-            p Cuando se habla o se escribe acerca de un tema o situación actual, el tiempo presente simple es el tiempo verbal que se utiliza, porque resulta indispensable cuando es necesario describir acciones habituales que suceden con cierta frecuencia. Sin embargo, no hace referencia a la actividad o acción que está ocurriendo en el momento actual (para ello se utiliza el tiempo presente continuo).
+            p El tiempo presente simple se conjuga utilizando la forma básica del verbo (viene siendo igual al infinitivo, pero sin la palabra 
+              span.r-1.fst-italic “to”
+              | ). Resulta de gran importancia considerar que cuando se conjuga un verbo en la tercera persona del singular, debe añadirse una 
+              span.r-1.fst-italic “s” 
+              | al final. 
+              br
+              br
+              |En las siguientes tablas, puede observarse la forma de conjugación, que va a depender del sujeto o persona gramatical de quien se habla, tomando en cuenta si está en número singular o plural.
           a.boton-traduccion(@click='ocultarEsp2 = !ocultarEsp2') Ver traducción
     .titulo-sexto.color-primario(data-aos='fade-right')
       h5 Tabla 1
@@ -184,41 +194,48 @@
                 Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/3.mp3')")
             tbody.text-center
               tr.fw-bold
-                td(colspan='2') Persona gramatical
+                td(colspan='2') 
+                  span.r-1.fst-italic Grammatical person 
+                  br
+                  | / Persona gramatical
                 td 
-                  span.r-1 Pronouns
+                  span.r-1 Pronoun
                   br
                   |Pronombre
-                td Verbo
+                td 
+                  span.r-1.fst-italic Verb 
+                  | / Verbo
                   br
                   span.fst-italic “to talk”
-                td Conjugación
+                td 
+                  span.r-1.fst-italic Conjugation 
+                  | / Conjugación
               tr
                 td(rowspan='5') Singular
-                td 1era persona
+                td 1.ª persona
                 td 
                   span.r-1 I 
-                  |/ yo
+                  |/ Yo
                 td
                   span.r-1 talk
                 td 
                   span.r-1 I talk. 
                   |/ Yo hablo.
               tr
-                td 2nda persona
+                td 2.ª persona
                 td 
                   span.r-1 You 
-                  |/ tú
+                  |/ Tú
                 td
                   span.r-1 talk
                 td 
                   span.r-1 You talk. 
                   | / Tú hablas.
               tr.bg-rc
-                td(rowspan='3') 3era persona
+                td(rowspan='3') 3.ª persona
                 td 
                   span.r-1 He 
-                  |/ el
+                  |/ Él
                 td
                   span.r-1 talks
                 td 
@@ -227,7 +244,7 @@
               tr.bg-rc
                 td 
                   span.r-1 She 
-                  |/ ella
+                  |/ Ella
                 td
                   span.r-1 talks
                 td 
@@ -236,7 +253,7 @@
               tr.bg-rc
                 td 
                   span.r-1 It 
-                  |/ ello
+                  |/ Ello
                 td
                   span.r-1 talks
                 td 
@@ -244,7 +261,7 @@
                   | / Ello habla.
               tr
                 td(rowspan='3') Plural
-                td 1era persona
+                td 1.ª persona
                 td 
                   span.r-1 We 
                   |/ Nosotros
@@ -254,20 +271,20 @@
                   span.r-1 We talk. 
                   | / Nosotros hablamos.
               tr
-                td 2nda persona
+                td 2.ª persona
                 td 
                   span.r-1 You 
-                  |/ ustedes
+                  |/ Ustedes
                 td
                   span.r-1 talk
                 td 
                   span.r-1 You talk. 
                   | / Ustedes hablan.
               tr
-                td 3era persona
+                td 3.ª persona
                 td 
                   span.r-1 They 
-                  | / ellos (as)
+                  | / Ellos (as)
                 td
                   span.r-1 talk
                 td 
@@ -292,41 +309,48 @@
                 Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/4.mp3')")
             tbody.text-center
               tr.fw-bold
-                td(colspan='2') Persona gramatical
+                td(colspan='2') 
+                  span.r-1.fst-italic Grammatical person 
+                  br
+                  | / Persona gramatical
                 td 
-                  span.r-1 Pronouns
+                  span.r-1 Pronoun
                   br
                   |Pronombre
-                td Verbo
+                td 
+                  span.r-1.fst-italic Verb 
+                  | / Verbo
                   br
                   span.fst-italic “to paint”
-                td Conjugación
+                td 
+                  span.r-1.fst-italic Conjugation 
+                  | / Conjugación
               tr
                 td(rowspan='5') Singular
-                td 1era persona
+                td 1.ª persona
                 td 
                   span.r-1 I 
-                  |/ yo
+                  |/ Yo
                 td
                   span.r-1 paint
                 td 
                   span.r-1 I paint. 
                   | /Yo pinto.
               tr
-                td 2nda persona
+                td 2.ª persona
                 td 
                   span.r-1 You 
-                  |/ tú
+                  |/ Tú
                 td
                   span.r-1 paint
                 td 
                   span.r-1 You paint. 
                   | / Tú pintas.
               tr.bg-rc
-                td(rowspan='3') 3era persona
+                td(rowspan='3') 3.ª persona
                 td 
                   span.r-1 He 
-                  |/ el
+                  |/ Él
                 td
                   span.r-1 paints
                 td 
@@ -335,7 +359,7 @@
               tr.bg-rc
                 td 
                   span.r-1 She 
-                  |/ ella
+                  |/ Ella
                 td
                   span.r-1 paints
                 td 
@@ -344,7 +368,7 @@
               tr.bg-rc
                 td 
                   span.r-1 It 
-                  |/ ello
+                  |/ Ello
                 td
                   span.r-1 paints
                 td 
@@ -352,7 +376,7 @@
                   | / Ello pinta.
               tr
                 td(rowspan='3') Plural
-                td 1era persona
+                td 1.ª persona
                 td 
                   span.r-1 We 
                   |/ Nosotros
@@ -362,20 +386,20 @@
                   span.r-1 We paint. 
                   | / Nosotros pintamos.
               tr
-                td 2nda persona
+                td 2.ª persona
                 td 
                   span.r-1 You 
-                  |/ ustedes
+                  |/ Ustedes
                 td
                   span.r-1 paint
                 td 
                   span.r-1 You paint. 
                   | / Ustedes pintan.
               tr
-                td 3era persona
+                td 3.ª persona
                 td 
                   span.r-1 They 
-                  | / ellos (as)
+                  | / Ellos (as)
                 td
                   span.r-1 paint
                 td 
@@ -385,7 +409,7 @@
       span.r-4.fw-normal.fst-italic In any case, it should also be considered that there are verbs in which certain exceptions occur, so the letter in which that verb ends must be taken into account when conjugating the third-person singular. For example, in the verbs ending in "y", this should be changed to an "i" and add "es" at the end.
       br
       br
-      | En todo caso, también se debe considerar que hay verbos en los que ocurren ciertas excepciones, por lo que hay que tomar en cuenta la letra en que terminan esos verbos al conjugar la tercera persona del singular. Por ejemplo, en los verbos terminados en “y”, esta se debe cambiar por una “i” y añadir al final “es”.
+      | En todo caso, también se debe considerar que hay verbos en los que ocurren ciertas excepciones, por lo que hay que tomar en cuenta la letra en que terminan esos verbos al conjugar la tercera persona del singular. Por ejemplo, en los verbos terminados en <em>“y”</em>, esta se debe cambiar por una <em>“i”</em> y añadir al final <em>“es”</em>.
     .titulo-sexto.color-primario(data-aos='fade-right')
       h5 Tabla 3
       span  Persona gramatical con el verbo 
@@ -400,41 +424,48 @@
                 Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/5.mp3')")
             tbody.text-center
               tr.fw-bold
-                td(colspan='2') Persona gramatical
+                td(colspan='2') 
+                  span.r-1.fst-italic Grammatical person 
+                  br
+                  | / Persona gramatical
                 td 
-                  span.r-1 Pronouns
+                  span.r-1 Pronoun
                   br
                   |Pronombre
-                td Verbo
+                td 
+                  span.r-1.fst-italic Verb 
+                  | / Verbo
                   br
                   span.fst-italic “to cry”
-                td Conjugación
+                td 
+                  span.r-1.fst-italic Conjugation 
+                  | / Conjugación
               tr
                 td(rowspan='5') Singular
-                td 1era persona
+                td 1.ª persona
                 td 
                   span.r-1 I 
-                  |/ yo
+                  |/ Yo
                 td
                   span.r-1 cry
                 td 
                   span.r-1 I cry. 
                   | /Yo lloro.
               tr
-                td 2nda persona
+                td 2.ª persona
                 td 
                   span.r-1 You 
-                  |/ tú
+                  |/ Tú
                 td
                   span.r-1 cry
                 td 
                   span.r-1 You cry. 
                   | / Tú lloras.
               tr.bg-rc
-                td(rowspan='3') 3era persona
+                td(rowspan='3') 3.ª persona
                 td 
                   span.r-1 He 
-                  |/ el
+                  |/ Él
                 td
                   span.r-1 cries
                 td 
@@ -443,7 +474,7 @@
               tr.bg-rc
                 td 
                   span.r-1 She 
-                  |/ ella
+                  |/ Ella
                 td
                   span.r-1 cries
                 td 
@@ -452,7 +483,7 @@
               tr.bg-rc
                 td 
                   span.r-1 It 
-                  |/ ello
+                  |/ Ello
                 td
                   span.r-1 cries
                 td 
@@ -460,7 +491,7 @@
                   | / Ello llora.
               tr
                 td(rowspan='3') Plural
-                td 1era persona
+                td 1.ª persona
                 td 
                   span.r-1 We 
                   |/ Nosotros
@@ -470,20 +501,20 @@
                   span.r-1 We cry. 
                   | / Nosotros lloramos.
               tr
-                td 2nda persona
+                td 2.ª persona
                 td 
                   span.r-1 You 
-                  |/ ustedes
+                  |/ Ustedes
                 td
                   span.r-1 cry
                 td 
                   span.r-1 You cry. 
                   | / Ustedes lloran.
               tr
-                td 3era persona
+                td 3.ª persona
                 td 
                   span.r-1 They 
-                  | / ellos (as)
+                  | / Ellos (as)
                 td
                   span.r-1 cry
                 td 
@@ -509,7 +540,7 @@
               th(colspan='4' :style="{'background-image': `url(${require('@/assets/curso/temas/22.svg')})`}").bg-table-audio
                 Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/6.mp3')")
             tbody.text-center
-              tr.bg-purple
+              tr.bg-purple.fst-normal
                 td Terminación del verbo
                 td Verbo
                 td Ejemplo al conjugar la tercera persona del singular
@@ -551,7 +582,7 @@
                   span.r-1 This bee buzzes all day.
                 td Esta abeja zumba todo el día.
     h4.mb-5 
-      span.r-1 Affirmative form of the simple present tense. 
+      span.r-1 Affirmative form of the simple present tense 
       | / Forma afirmativa del tiempo presente simple.
     p.mb-5(data-aos='fade-right')
       span.r-4.fst-italic.fw-normal In its affirmative form, the simple present tense uses its basic form and has the following structure:
@@ -564,7 +595,7 @@
       span.r-4.fst-italic.fw-normal The following table shows the present tense conjugation of the verb “to live” in the affirmative form. As can be seen, only the third-person singular adds an "s" at the end.
       br
       br
-      |La siguiente tabla presenta la conjugación en tiempo presente del verbo “to live” en forma afirmativa. Tal como puede observarse, solo la tercera persona del singular añade una “s” al final.
+      |La siguiente tabla presenta la conjugación en tiempo presente del verbo <em>“to live”</em> en forma afirmativa. Tal como puede observarse, solo la tercera persona del singular añade una “s” al final.
     .titulo-sexto.color-primario(data-aos='fade-right')
       h5 Tabla 5
       span Persona gramatical con el verbo 
@@ -579,9 +610,11 @@
                 Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/7.mp3')")
             tbody.text-center
               tr.fw-bold
-                td(colspan='2') Persona gramatical
+                td(colspan='2') 
+                  span.r-1.fst-italic Grammatical person 
+                  | /Persona gramatical
                 td 
-                  span.r-1 Pronouns
+                  span.r-1 Pronoun
                   br
                   |Pronombre
                 td 
@@ -597,9 +630,11 @@
                 td 1era persona
                 td 
                   span.r-1 I 
-                  |/ yo
+                  |/ Yo
                 td
-                  span.r-1 live/ vivo
+                  span.r-1 live 
+                  br
+                  | / vivo
                 td 
                   span.r-1 in Colombia 
                   | / en Colombia.
@@ -607,9 +642,9 @@
                 td 2nda persona
                 td 
                   span.r-1 You 
-                  |/ tú
+                  |/ Tú
                 td
-                  span.r-1 live
+                  span.r-1 live 
                   | / vives
                 td 
                   span.r-1 in Colombia 
@@ -618,9 +653,9 @@
                 td(rowspan='3') 3era persona
                 td 
                   span.r-1 He 
-                  |/ el
+                  |/ Él
                 td
-                  span.r-1 lives 
+                  span.r-1 lives  
                   | / vive
                 td 
                   span.r-1 in Colombia 
@@ -628,9 +663,9 @@
               tr.bg-rc
                 td 
                   span.r-1 She 
-                  |/ ella
+                  |/ Ella
                 td
-                  span.r-1 lives 
+                  span.r-1 lives  
                   | / vive
                 td 
                   span.r-1 in Colombia 
@@ -638,9 +673,9 @@
               tr.bg-rc
                 td 
                   span.r-1 It 
-                  |/ ello
+                  |/ Ello
                 td
-                  span.r-1 lives 
+                  span.r-1 lives  
                   | / vive
                 td 
                   span.r-1 in Colombia 
@@ -652,7 +687,7 @@
                   span.r-1 We 
                   |/ Nosotros
                 td
-                  span.r-1 live
+                  span.r-1 live 
                   | / vivimos
                 td 
                   span.r-1 in Colombia 
@@ -661,9 +696,9 @@
                 td 2nda persona
                 td 
                   span.r-1 You 
-                  |/ ustedes
+                  |/ Ustedes
                 td
-                  span.r-1 live
+                  span.r-1 live 
                   | / viven
                 td 
                   span.r-1 in Colombia 
@@ -671,8 +706,8 @@
               tr
                 td 3era persona
                 td 
-                  span.r-1 They 
-                  | / ellos (as)
+                  span.r-1 They  
+                  | / Ellos (as)
                 td
                   span.r-1 live
                   | / viven
@@ -680,7 +715,7 @@
                   span.r-1 in Colombia 
                   | / en Colombia.
     h4.mb-5 
-      span.r-1 Negative form of the simple present tense.
+      span.r-1 Negative form of the simple present tense 
       | / Forma negativa del tiempo presente simple.
     p.mb-5(data-aos='fade-right')
       span.r-4.fst-italic.fw-normal In its negative form, the simple present tense uses its basic form and has the following structure:
@@ -709,7 +744,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .tabla-a.color-acento-botones.mb-5
-          table.border-table.fw-bold.fst-italic
+          table.border-table
             
             tr
               th(colspan='4' :style="{'background-image': `url(${require('@/assets/curso/temas/26.svg')})`}").bg-table-audio
@@ -719,86 +754,110 @@
                 td 
                   span.r-1.fst-italic Pronoun 
                   br
-                  |Pronombre
+                  span.fw-bold Pronombre
                 td.bg-rc 
                   span.r-1.fst-italic Auxiliary verb (to do) + Negation (not) 
                   br
-                  | verbo auxiliar (to do) + Negación (not)
+                  span.fw-bold  Verbo auxiliar (to do) + Negación (not)
                 td 
                   span.r-1.fst-italic Verb
                   br
-                  | Verbo
+                  span.fw-bold Verbo
                 td 
                   span.r-1.fst-italic Complement
                   br
-                  | Complemento
+                  span.fw-bold Complemento
               tr
-                td I / Yo
-                td.bg-rc do + not  → don’t
+                td 
+                  span.r-1.fst-italic I 
+                  |/ Yo
+                td.bg-rc.fw-bold.fst-italic do + not  → don’t
                 td
-                  span.r-1 live / vivo
+                  span.r-1 live 
+                  span.fw-bold / vivo
                 td 
                   span.r-1.fst-italic in Colombia 
                   | / en Colombia.
               tr
-                td You / Tú
-                td.bg-rc do + not  → don’t
+                td 
+                  span.r-1.fst-italic  You 
+                  | / Tú
+                td.bg-rc.fw-bold.fst-italic do + not  → don’t
                 td
-                  span.r-1 live / vives
+                  span.r-1 live 
+                  span.fw-bold / vives
                 td 
                   span.r-1.fst-italic in Colombia 
                   | / en Colombia.
               tr
-                td He / El
-                td.bg-rc does + not  → doesn’t
+                td 
+                  span.r-1.fst-italic  He 
+                  | /Él
+                td.bg-rc.fw-bold.fst-italic does + not  → doesn’t
                 td
-                  span.r-1 lives / vive
+                  span.r-1 lives 
+                  span.fw-bold / vive
                 td 
                   span.r-1.fst-italic in Colombia 
                   | / en Colombia.
               tr
-                td She / Ella
-                td.bg-rc does + not  → doesn’t
+                td 
+                  span.r-1.fst-italic She 
+                  | / Ella
+                td.bg-rc.fw-bold.fst-italic does + not  → doesn’t
                 td
-                  span.r-1 lives / vive
+                  span.r-1 lives 
+                  span.fw-bold / vive
                 td 
                   span.r-1.fst-italic in Colombia 
                   | / en Colombia..
               tr
-                td It / Ello
-                td.bg-rc does + not  → doesn’t
+                td 
+                  span.r-1.fst-italic  It 
+                  | / Ello
+                td.bg-rc.fw-bold.fst-italic does + not  → doesn’t
                 td
-                  span.r-1 lives / vive
+                  span.r-1 lives 
+                  span.fw-bold / vive
                 td 
                   span.r-1.fst-italic in Colombia 
                   | / en Colombia.
               tr
-                td We / Nosostros
-                td.bg-rc do + not  → don’t
+                td 
+                  span.r-1.fst-italic We  
+                  | / Nosostros
+                td.bg-rc.fw-bold.fst-italic do + not  → don’t
                 td
-                  span.r-1 live / vivimos
+                  span.r-1 live 
+                  span.fw-bold / vivimos
                 td 
                   span.r-1.fst-italic in Colombia 
                   | / en Colombia.
               tr
-                td You / Ustedes
-                td.bg-rc do + not  → don’t
+                td 
+                  span.r-1.fst-italic You 
+                  | / Ustedes
+                td.bg-rc.fw-bold.fst-italic do + not  → don’t
                 td
-                  span.r-1 live / viven
+                  span.r-1 live 
+                  span.fw-bold / viven
                 td 
                   span.r-1.fst-italic in Colombia 
                   | / en Colombia.
               tr
-                td They / Ellos
-                td.bg-rc do + not  → don’t
+                td 
+                  span.r-1.fst-italic They 
+                  | / Ellos
+                td.bg-rc.fw-bold.fst-italic do + not  → don’t
                 td
-                  span.r-1 live / viven
+                  span.r-1 live 
+                  span.fw-bold / viven
                 td 
                   span.r-1.fst-italic in Colombia 
                   | / en Colombia.
         p(data-aos='fade-right') * Contractions / contracciones:  do not = don’t y does not = doesn’t
     h4.mb-5 
-      span.r-1 Interrogative form of simple present tense.
+      span.r-1 Interrogative form of simple present tense 
       | / Forma interrogativa del tiempo presente simple.
     p.mb-5(data-aos='fade-right')
       span.r-4.fst-italic.fw-normal In its interrogative form, the simple present tense uses its basic form and has the following structure:
@@ -806,7 +865,7 @@
       br
       | En su forma interrogativa, el verbo en tiempo presente simple utiliza su forma básica y tiene la siguiente estructura:
     .row.justify-content-center.mb-5
-      .col-lg-10: img(data-aos='zoom-in-up')(src='@/assets/curso/temas/25.svg', alt='')
+      .col-lg-10: img(data-aos='zoom-in-up')(src='@/assets/curso/temas/c26.svg', alt='')
     p.mb-5(data-aos='fade-right')
       span.r-4.fst-italic.fw-normal The following table presents the present tense conjugation of the verb “to live” in interrogative form. As can be seen, only the third-person singular adds an "es" to the auxiliary verb, since "to do" ends in a vowel letter "o", while the principal verb keeps its basic form.
       br
@@ -829,7 +888,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .tabla-a.color-acento-botones.mb-5
-          table.border-table.fw-bold.fst-italic
+          table.border-table.fw-bold
             
             tr
               th(colspan='4' :style="{'background-image': `url(${require('@/assets/curso/temas/28.svg')})`}").bg-table-audio
@@ -853,69 +912,93 @@
                   br
                   | Complemento
               tr
-                td.bg-rc Do
-                td I / Yo
-                td
-                  span.r-1 live / vivo
+                td.bg-rc.fst-italic Do
                 td 
-                  span.r-1.fst-italic in Colombia 
-                  | / en Colombia.
+                  span.r-1.fst-italic I 
+                  span.fw-bold / Yo
+                td
+                  span.r-1.fst-italic live 
+                  span.fw-bold / vivo
+                td 
+                  span.r-1.fst-italic in Colombia
+                  | / en Colombia ?
               tr
-                td.bg-rc Do
-                td You / Tú
+                td.bg-rc.fst-italic Do
+                td 
+                  span.r-1.fst-italic You 
+                  span.fw-bold / Tú
                 td
-                  span.r-1 live / vives
+                  span.r-1.fst-italic live 
+                  span.fw-bold / vives
                 td 
                   span.r-1.fst-italic in Colombia 
-                  | / en Colombia.
+                  | / en Colombia ?
               tr
-                td.bg-rc Does
-                td He / El
+                td.bg-rc.fst-italic Does
+                td 
+                  span.r-1.fst-italic He 
+                  span.fw-bold / Él
                 td
-                  span.r-1 lives / vive
+                  span.r-1.fst-italic lives 
+                  span.fw-bold / vive
                 td 
                   span.r-1.fst-italic in Colombia 
-                  | / en Colombia.
+                  | / en Colombia ?
               tr
-                td.bg-rc Does
-                td She / Ella
+                td.bg-rc.fst-italic Does
+                td 
+                  span.r-1.fst-italic She 
+                  span.fw-bold / Ella
                 td
-                  span.r-1 lives / vive
+                  span.r-1.fst-italic lives 
+                  span.fw-bold / vive
                 td 
                   span.r-1.fst-italic in Colombia 
-                  | / en Colombia..
+                  | / en Colombia ?
               tr
-                td.bg-rc Does
-                td It / Ello
+                td.bg-rc.fst-italic Does
+                td 
+                  span.r-1.fst-italic It 
+                  span.fw-bold / Ello
                 td
-                  span.r-1 lives / vive
+                  span.r-1.fst-italic lives 
+                  span.fw-bold / vive
                 td 
                   span.r-1.fst-italic in Colombia 
-                  | / en Colombia.
+                  | / en Colombia ?
               tr
-                td.bg-rc Do
-                td We / Nosostros
+                td.bg-rc.fst-italic Do
+                td 
+                  span.r-1.fst-italic We 
+                  span.fw-bold / Nosostros
                 td
-                  span.r-1 live / vivimos
+                  span.r-1.fst-italic live 
+                  span.fw-bold / vivimos
                 td 
                   span.r-1.fst-italic in Colombia 
-                  | / en Colombia.
+                  | / en Colombia ?
               tr
-                td.bg-rc Do
-                td You / Ustedes
+                td.bg-rc.fst-italic Do
+                td 
+                  span.r-1.fst-italic You 
+                  span.fw-bold / Ustedes
                 td
-                  span.r-1 live / viven
+                  span.r-1.fst-italic live 
+                  span.fw-bold / viven
                 td 
                   span.r-1.fst-italic in Colombia 
-                  | / en Colombia.
+                  | / en Colombia ?
               tr
-                td.bg-rc Do
-                td They / Ellos
+                td.bg-rc.fst-italic Do
+                td 
+                  span.r-1.fst-italic They 
+                  span.fw-bold / Ellos
                 td
-                  span.r-1 live / viven
+                  span.r-1.fst-italic live 
+                  span.fw-bold / viven
                 td 
                   span.r-1.fst-italic in Colombia 
-                  | / en Colombia.
+                  | / en Colombia ?
     .contenedor-franja.margin-n
       .franja1(style= 'height: 87%')
       .row.justify-content-center.align-items-end.g-0
@@ -943,30 +1026,33 @@
             .row.justify-content-center.mb-5
               .col-lg-4
                 h5.text-white Question / Pregunta: 
-                TarjetaAudio.color-primario.bg-white.mb-3(
-                  texto="Do we live in Mexico?"
-                  :audio="require('@/assets/audios/tema1/1.mp3')"
-                )  
+                .noAudio
+                  TarjetaAudio.color-primario.bg-white.mb-3(
+                    texto="Do we live in Mexico?"
+                    :audio="require('@/assets/audios/tema1/1.mp3')"
+                  )  
                 p.text-white.ms-3 ¿Nosotros vivimos en México?
               .col-lg-4
                 h5.text-white Clomplete answer / Respuesta completa: 
-                .audio-verde
-                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                    texto="No, we don’t live in Mexico"
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
-                  )  
+                .noAudio
+                  .audio-verde
+                    TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                      texto="No, we don’t live in Mexico"
+                      :audio="require('@/assets/audios/tema1/1.mp3')"
+                    )  
                 p.text-white.ms-3 No, nosotros no vivimos en México
               .col-lg-4
                 h5.text-white Short answer / Respuesta corta:
-                .audio-verde
-                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                    texto="No, we don’t."
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
-                  )  
+                .noAudio
+                  .audio-verde
+                    TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                      texto="No, we don’t."
+                      :audio="require('@/assets/audios/tema1/1.mp3')"
+                    )  
                 p.text-white.ms-3 No.
     Separador
     #t_1_3.titulo-segundo.color-primario(data-aos='fade-right')
-      h2 1.3. Simple present tense pronunciation / Pronunciación del tiempo presente simple
+      h2 1.3 <em>Simple present tense pronunciation</em> / Pronunciación del tiempo presente simple
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/30.png', alt='')
       .col-lg-7.mb-lg-0.mb-3
@@ -1240,4 +1326,9 @@ h5.span-title
     span
       font-style: italic
       color: #ff5f65
+.noAudio
+  button
+    display: none
+  input
+    display: none
 </style>

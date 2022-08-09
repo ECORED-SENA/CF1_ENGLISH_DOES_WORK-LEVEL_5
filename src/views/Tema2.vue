@@ -84,27 +84,33 @@
       br
       |Desde una perspectiva semántica, un adjetivo puede enunciar diversas características, como: cualidades (bello, alto), estados (soltero, triste, feliz), actitudes (activo, idealista), posibilidades (probable, increíble), procedencia o nacionalidad (mexicano, argentino), entre otras. Algunos ejemplos son:
     TabsB.color-acento-contenido.mb-5
-      .py-4.py-md-5(titulo="Qualities / Cualidades" :icono="require('@/assets/curso/temas/38.svg')")
+      .py-4.py-md-5(titulo="<em>Qualities</em> / Cualidades" :icono="require('@/assets/curso/temas/38.svg')")
         .row.justify-content-center.mb-5
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/38.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="This is a beautiful baby."
               :audio="require('@/assets/audios/tema1/17.mp3')"
-              )  
+              )
+            p.text-center.mt-3
+              span.f-2.p-2 Es un <b>lindo</b> bebe .  
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/39.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Grace is very smart."
               :audio="require('@/assets/audios/tema1/18.mp3')"
-              )  
+              )
+            p.text-center.mt-3
+              span.f-2.p-2 Grace es muy <b>inteligente</b> .
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/40.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Jimmy is a strong boy."
               :audio="require('@/assets/audios/tema1/19.mp3')"
-              )  
-      .py-4.py-md-5(titulo="States / Estados" :icono="require('@/assets/curso/temas/53.svg')")
+              )
+            p.text-center.mt-3
+              span.f-2.p-2 Jimmy es un chico <b>fuerte</b> . 
+      .py-4.py-md-5(titulo="<em>States</em> / Estados" :icono="require('@/assets/curso/temas/53.svg')")
         .row.justify-content-center.mb-5
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/41.jpg')})`}")
@@ -112,19 +118,25 @@
               texto="Molly is a happy girl."
               :audio="require('@/assets/audios/tema1/20.mp3')"
               )  
+            p.text-center.mt-3
+              span.f-2.p-2 Molly es una chica <b>feliz</b> .
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/42.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="George feels furious."
               :audio="require('@/assets/audios/tema1/21.mp3')"
               )  
+            p.text-center.mt-3
+              span.f-2.p-2 George está <b>furioso</b> .
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/43.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Lucas has a calm temperament."
               :audio="require('@/assets/audios/tema1/22.mp3')"
-              )  
-      .py-4.py-md-5(titulo="Attitudes / Actitudes" :icono="require('@/assets/curso/temas/54.svg')")
+              ) 
+            p.text-center.mt-3
+              span.f-2.p-2 Lucas tiene un temperamento <b>tranquilo</b> .
+      .py-4.py-md-5(titulo="<em>Attitudes</em> / Actitudes" :icono="require('@/assets/curso/temas/54.svg')")
         .row.justify-content-center.mb-5
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/44.jpg')})`}")
@@ -132,39 +144,51 @@
               texto="Marge is sympathetic with her children."
               :audio="require('@/assets/audios/tema1/23.mp3')"
               )  
+            p.text-center.mt-3
+              span.f-2.p-2 Marge es <b>comprensiva</b> con sus hijos.
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/45.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Peter is an enthusiastic human rights activist."
               :audio="require('@/assets/audios/tema1/24.mp3')"
               )  
+            p.text-center.mt-3
+              span.f-2.p-2 Peter es un <b>entusiasta </b> activista por los derechos humanos. 
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/46.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="The teacher is very patient with her students."
               :audio="require('@/assets/audios/tema1/25.mp3')"
               )  
-      .py-4.py-md-5(titulo="Possibilities / Posibilidades" :icono="require('@/assets/curso/temas/55.svg')")
+            p.text-center.mt-3
+              span.f-2.p-2 La maestra es muy <b>paciente</b> con sus estudiantes.
+      .py-4.py-md-5(titulo="<em>Possibilities</em> / Posibilidades" :icono="require('@/assets/curso/temas/55.svg')")
         .row.justify-content-center.mb-5
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/47.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="It’s likely to rain today."
               :audio="require('@/assets/audios/tema1/26.mp3')"
-              )  
+              ) 
+            p.text-center.mt-3
+              span.f-2.p-2 Es <b>probable</b> que llueva hoy.  
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/48.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="The chances of winning are slim."
               :audio="require('@/assets/audios/tema1/27.mp3')"
               )  
+            p.text-center.mt-3
+              span.f-2.p-2 Las oportunidades de ganar son <b>escasas</b> .
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/49.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="It’s incredible that you’re here. "
               :audio="require('@/assets/audios/tema1/28.mp3')"
               )  
-      .py-4.py-md-5(titulo="Nationality / Nacionalidad" :icono="require('@/assets/curso/temas/56.svg')")
+            p.text-center.mt-3
+              span.f-2.p-2 Es <b>increible </b> que estés aquí.
+      .py-4.py-md-5(titulo="<em>Nationality</em> / Nacionalidad" :icono="require('@/assets/curso/temas/56.svg')")
         .row.justify-content-center.mb-5
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/50.jpg')})`}")
@@ -172,20 +196,26 @@
               texto="Nicole is French."
               :audio="require('@/assets/audios/tema1/29.mp3')"
               )  
+            p.text-center.mt-3
+              span.f-2.p-2 Nicole es <b>francesa</b> .
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/51.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Paula is a Brazilian athlete."
               :audio="require('@/assets/audios/tema1/30.mp3')"
               )  
+            p.text-center.mt-3
+              span.f-2.p-2 Paula es una <b>atleta</b> brasileña.
           .col-lg-3.col-4
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/52.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Pierina is the Italian candidate."
               :audio="require('@/assets/audios/tema1/31.mp3')"
               )  
+            p.text-center.mt-3
+              span.f-2.p-2 Pierina es la candidata <b>italiana</b> .
     p.mb-5(data-aos='fade-right') Para poder establecer una comparación en el idioma inglés, se utilizan diversas cualidades, que se pueden expresar a través de tres diferentes grados de los adjetivos, como se verá a continuación:
-    h3 <em>Degrees of the adjective.</em> / Grados del adjetivo.
+    h3 <em>Degrees of the adjective</em> / Grados del adjetivo.
     p.mb-5(data-aos='fade-right') 
       span.r-4.fst-italic.fw-normal It should be noted that adjectives, depending on their function, are presented in three different forms or degrees: 
       span.r-1.fst-italic a positive degree, a comparative degree, and a superlative degree.
@@ -197,7 +227,7 @@
       |Ahora, observe un video para entender mejor los diferentes grados de los adjetivos:
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/f5cwrrqnPEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     #t_2_1.titulo-segundo.color-primario(data-aos='fade-right')
       h2 2.1. Comparative adjectives (Adjetivos comparativos)
     .row.justify-content-center.align-items-center.mb-5
@@ -249,7 +279,7 @@
               texto="This company is as productive as that one"
               :audio="require('@/assets/audios/tema1/34.mp3')"
               )  
-          p.ms-4 Tú te levantas a las seis en punto.
+          p.ms-4 Esta empresa es tan productiva como aquella. 
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-3
         img(src='@/assets/curso/temas/61.png', alt='')
@@ -307,8 +337,8 @@
         .col-lg-11
           img.mb-4(src='@/assets/curso/temas/68.svg', alt='')
           p(data-aos='fade-right') 
-            span.r-1.fst-italic For the as much…as structure: 
-            | / Para la estructura as much…as:
+            span.r-1.fst-italic For the as much… as structure: 
+            | / Para la estructura as much… as:
           .tarjeta-audio-botton
             div.flex-grow-1(style='background-color: #ffe891').d-flex.align-items-center.justify-content-center.px-3
               Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/39.mp3')")
@@ -469,7 +499,7 @@
                 p.text-white grande → más grande
               .col-lg-3
                 TarjetaAudio.color-primario.bg-white.mb-3(
-                texto="small. → smaller"
+                texto="small → smaller"
                 :audio="require('@/assets/audios/tema1/53.mp3')"
                 ) 
                 p.text-white pequeño → más pequeño
@@ -517,7 +547,9 @@
             .d-flex.justify-content-center 
               Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/54.mp3')")
             p.text-center
-              span.r-1.fst-italic The most beautiful woman in the universe.
+              span.r-1.fst-italic The  
+                span.r-2.fst-italic most beautiful 
+                | woman in the universe.
               br
               | La mujer más bonita del universo.
       .col-lg-3.col-sm-6
@@ -526,7 +558,9 @@
             .d-flex.justify-content-center 
               Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/55.mp3')")
             p.text-center
-              span.r-1.fst-italic The smartest student in school.
+              span.r-1.fst-italic The 
+                span.r-2.fst-italic smartest 
+                | student in school.
               br
               | El estudiante más inteligente de la escuela.
       .col-lg-3.col-sm-6
@@ -535,7 +569,9 @@
             .d-flex.justify-content-center 
               Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/56.mp3')")
             p.text-center
-              span.r-1.fst-italic The largest house in the neighborhood.
+              span.r-1.fst-italic The 
+                span.r-2.fst-italic largest 
+                | house in the neighborhood.
               br
               | La casa más grande del vecindario.
       .col-lg-3.col-sm-6
@@ -544,7 +580,9 @@
             .d-flex.justify-content-center 
               Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/57.mp3')")
             p.text-center
-              span.r-1.fst-italic The cutest kitten in the litter.
+              span.r-1.fst-italic The 
+                span.r-2.fst-italic cutest 
+                | kitten in the litter.
               br
               | El gatito más tierno de la camada.
     .row.justify-content-center.align-items-center.mb-5
@@ -1056,7 +1094,7 @@
                 .d-flex.align-items-center
                   img(src='@/assets/curso/temas/130.svg', alt='' style='width: 54px;').me-3
                   p.mb-0
-                    span.r-1.fst-italic This is the tiniest kitten in the lititer.
+                    span.r-1.fst-italic This is the tiniest kitten in the litter.
                     br
                     | Este es el gatito más diminuto de la camada.
             p.fw-bold
@@ -1296,8 +1334,8 @@
           .table-purple__bottom
             .table-title.p-3.mb-4
               p.text-center.fw-bold.mb-0
-                span.r-1.fst-italic Superlative degree
-                | Grado superlativo
+                span.r-1.fst-italic Superlative degree 
+                | / Grado superlativo
             p.text-center
               span.f-6.fw-bold.px-5.py-1 Best
               br
@@ -1336,8 +1374,8 @@
           .table-purple__bottom
             .table-title.p-3.mb-4
               p.text-center.fw-bold.mb-0
-                span.r-1.fst-italic Superlative degree
-                | Grado superlativo
+                span.r-1.fst-italic Superlative degree 
+                | / Grado superlativo
             p.text-center
               span.f-6.fw-bold.px-5.py-1 Worst
               br
@@ -1346,7 +1384,7 @@
       .col-lg-3
         .titulo-sexto.color-primario(data-aos='fade-right')
           h5 Tabla 10
-          span  El adjetivo”Far” / Lejos
+          span  El adjetivo ”Far” / Lejos
         .table-purple
           .table-purple__top
             .tarjeta.rounded-0.color-secundario.p-3
@@ -1376,8 +1414,8 @@
           .table-purple__bottom
             .table-title.p-3.mb-4
               p.text-center.fw-bold.mb-0
-                span.r-1.fst-italic Superlative degree
-                | Grado superlativo
+                span.r-1.fst-italic Superlative degree  
+                | / Grado superlativo
             p.text-center
               span.f-6.fw-bold.px-5.py-1 Furthest
               br
@@ -1416,8 +1454,8 @@
           .table-purple__bottom
             .table-title.p-3.mb-4
               p.text-center.fw-bold.mb-0
-                span.r-1.fst-italic Superlative degree
-                | Grado superlativo
+                span.r-1.fst-italic Superlative degree 
+                | / Grado superlativo
             p.text-center
               span.f-6.fw-bold.px-5.py-1 Least
               br

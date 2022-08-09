@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'You’re the best! / ¡Tú eres el mejor!',
+    componenteFormativo: '<em>You’re the best!</em> / ¡Tú eres el mejor!',
     descripcionCurso:
       'En este documento, se presentan contenidos referidos al uso del tiempo presente simple de los verbos, para hablar de acciones actuales que no están limitadas a un momento específico. También se manejarán los adjetivos calificativos, que le van a permitir establecer diferencias y similitudes entre seres vivos, objetos y lugares, con base en las características observadas, utilizando los comparativos y superlativos, haciendo uso del vocabulario requerido.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
@@ -244,7 +244,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Lina Marcela Pérez Manchego',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
