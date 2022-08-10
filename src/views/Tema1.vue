@@ -65,7 +65,7 @@
               :audio="require('@/assets/audios/tema1/1.mp3')"
             )      
     #t_1_1.titulo-segundo.color-primario(data-aos='fade-right')
-      h2 1.1. <em>Simple present tense function</em> (Función del tiempo presente simple)
+      h2 1.1 <em>Simple present tense function</em> (Función del tiempo presente simple)
     p.mb-5(data-aos='fade-right')
       span.r-4.fst-italic.fw-normal
         | The simple present tense in English allows us to express that a situation occurs at that moment (although not at the same moment it is spoken), or that it repeats itself in time.
@@ -116,7 +116,7 @@
         .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false" style='height: 400px')
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/10.svg')})`}")
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/10.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
               .d-flex.flex-column.justify-content-center.align-items-center.h-100
                 img(src='@/assets/curso/temas/13.svg' alt='AvatarTop' style='width: 68px').mb-4
@@ -159,7 +159,7 @@
               :audio="require('@/assets/audios/tema1/2.mp3')"
           )
     #t_1_2.titulo-segundo.color-primario(data-aos='fade-right')
-      h2 1.2. <em>Simple present tense form</em> (Forma del tiempo presente simple)
+      h2 1.2 <em>Simple present tense form</em> (Forma del tiempo presente simple)
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/18.png', alt='')
       .col-lg-7.mb-lg-0.mb-3
@@ -546,37 +546,37 @@
                 td Ejemplo al conjugar la tercera persona del singular
                 td Traducción
               tr
-                td Termina en letra “o”
+                td.fst-normal Termina en letra “o”
                 td To go
                 td
                   span.r-1 He goes to school.
                 td Él va a la escuela.
               tr
-                td Termina en letra “sh”
+                td.fst-normal Termina en letra “sh”
                 td To push
                 td
                   span.r-1 Susy pushes the door
                 td Susy empuja la puerta.
               tr
-                td Termina en letra “ch”
+                td.fst-normal Termina en letra “ch”
                 td To catch
                 td
                   span.r-1 The dog catches the ball.
                 td El perro atrapa la pelota.
               tr
-                td Termina en letra “ss”
+                td.fst-normal Termina en letra “ss”
                 td To cross
                 td
                   span.r-1 The boy crosses the street.
                 td El niño cruza la calle.
               tr
-                td Termina en letra “x”
+                td.fst-normal Termina en letra “x”
                 td To relax
                 td
                   span.r-1 He relaxes easily.
                 td Él se relaja fácilmente.
               tr
-                td Termina en letra “z”
+                td.fst-normal Termina en letra “z”
                 td To buzz
                 td
                   span.r-1 This bee buzzes all day.
@@ -627,19 +627,18 @@
                   | Complemento 
               tr
                 td(rowspan='5') Singular
-                td 1era persona
+                td 1.ª persona
                 td 
                   span.r-1 I 
                   |/ Yo
                 td
                   span.r-1 live 
-                  br
                   | / vivo
                 td 
                   span.r-1 in Colombia 
                   | / en Colombia.
               tr
-                td 2nda persona
+                td 2.ª persona
                 td 
                   span.r-1 You 
                   |/ Tú
@@ -650,7 +649,7 @@
                   span.r-1 in Colombia 
                   | / en Colombia.
               tr.bg-rc
-                td(rowspan='3') 3era persona
+                td(rowspan='3') 3.ªpersona
                 td 
                   span.r-1 He 
                   |/ Él
@@ -682,7 +681,7 @@
                   | / en Colombia.
               tr
                 td(rowspan='3') Plural
-                td 1era persona
+                td 1.ª persona
                 td 
                   span.r-1 We 
                   |/ Nosotros
@@ -693,7 +692,7 @@
                   span.r-1 in Colombia 
                   | / en Colombia.
               tr
-                td 2nda persona
+                td 2.ª persona
                 td 
                   span.r-1 You 
                   |/ Ustedes
@@ -704,7 +703,7 @@
                   span.r-1 in Colombia 
                   | / en Colombia.
               tr
-                td 3era persona
+                td 3.ª persona
                 td 
                   span.r-1 They  
                   | / Ellos (as)
@@ -773,7 +772,7 @@
                   |/ Yo
                 td.bg-rc.fw-bold.fst-italic do + not  → don’t
                 td
-                  span.r-1 live 
+                  span.r-1.fst-italic live 
                   span.fw-bold / vivo
                 td 
                   span.r-1.fst-italic in Colombia 
@@ -784,7 +783,7 @@
                   | / Tú
                 td.bg-rc.fw-bold.fst-italic do + not  → don’t
                 td
-                  span.r-1 live 
+                  span.r-1.fst-italic live 
                   span.fw-bold / vives
                 td 
                   span.r-1.fst-italic in Colombia 
@@ -795,7 +794,7 @@
                   | /Él
                 td.bg-rc.fw-bold.fst-italic does + not  → doesn’t
                 td
-                  span.r-1 lives 
+                  span.r-1.fst-italic lives 
                   span.fw-bold / vive
                 td 
                   span.r-1.fst-italic in Colombia 
@@ -806,7 +805,7 @@
                   | / Ella
                 td.bg-rc.fw-bold.fst-italic does + not  → doesn’t
                 td
-                  span.r-1 lives 
+                  span.r-1.fst-italic lives 
                   span.fw-bold / vive
                 td 
                   span.r-1.fst-italic in Colombia 
@@ -817,7 +816,7 @@
                   | / Ello
                 td.bg-rc.fw-bold.fst-italic does + not  → doesn’t
                 td
-                  span.r-1 lives 
+                  span.r-1.fst-italic lives 
                   span.fw-bold / vive
                 td 
                   span.r-1.fst-italic in Colombia 
@@ -828,7 +827,7 @@
                   | / Nosostros
                 td.bg-rc.fw-bold.fst-italic do + not  → don’t
                 td
-                  span.r-1 live 
+                  span.r-1.fst-italic live 
                   span.fw-bold / vivimos
                 td 
                   span.r-1.fst-italic in Colombia 
@@ -839,7 +838,7 @@
                   | / Ustedes
                 td.bg-rc.fw-bold.fst-italic do + not  → don’t
                 td
-                  span.r-1 live 
+                  span.r-1.fst-italic live 
                   span.fw-bold / viven
                 td 
                   span.r-1.fst-italic in Colombia 
@@ -850,7 +849,7 @@
                   | / Ellos
                 td.bg-rc.fw-bold.fst-italic do + not  → don’t
                 td
-                  span.r-1 live 
+                  span.r-1.fst-italic live 
                   span.fw-bold / viven
                 td 
                   span.r-1.fst-italic in Colombia 
@@ -898,7 +897,7 @@
                 td.bg-rc  
                   span.r-1.fst-italic Auxiliary verb 
                   br
-                  |Verbo auxiliar (To do)
+                  |Verbo auxiliar <em>(To do)</em>
                 td
                   span.r-1.fst-italic Pronoun
                   br
@@ -1026,28 +1025,28 @@
             .row.justify-content-center.mb-5
               .col-lg-4
                 h5.text-white Question / Pregunta: 
-                .noAudio
-                  TarjetaAudio.color-primario.bg-white.mb-3(
-                    texto="Do we live in Mexico?"
-                    :audio="require('@/assets/audios/tema1/1.mp3')"
-                  )  
+                
+                TarjetaAudio.color-primario.bg-white.mb-3(
+                  texto="Do we live in Mexico?"
+                  :audio="require('@/assets/audios/tema1/tema_1_warning1_a_CF1.wav')"
+                )  
                 p.text-white.ms-3 ¿Nosotros vivimos en México?
               .col-lg-4
                 h5.text-white Clomplete answer / Respuesta completa: 
-                .noAudio
-                  .audio-verde
-                    TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                      texto="No, we don’t live in Mexico"
-                      :audio="require('@/assets/audios/tema1/1.mp3')"
+                
+                .audio-verde
+                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                    texto="No, we don’t live in Mexico"
+                    :audio="require('@/assets/audios/tema1/tema_1_warning1_b_CF1.wav')"
                     )  
                 p.text-white.ms-3 No, nosotros no vivimos en México
               .col-lg-4
                 h5.text-white Short answer / Respuesta corta:
-                .noAudio
-                  .audio-verde
-                    TarjetaAudio.color-acento-botones.bg-white.mb-3(
-                      texto="No, we don’t."
-                      :audio="require('@/assets/audios/tema1/1.mp3')"
+                
+                .audio-verde
+                  TarjetaAudio.color-acento-botones.bg-white.mb-3(
+                    texto="No, we don’t."
+                    :audio="require('@/assets/audios/tema1/tema_1_warning1_c_CF1.wav')"
                     )  
                 p.text-white.ms-3 No.
     Separador

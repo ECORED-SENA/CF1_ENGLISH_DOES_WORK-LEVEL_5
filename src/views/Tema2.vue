@@ -142,7 +142,7 @@
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/44.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Marge is sympathetic with her children."
-              :audio="require('@/assets/audios/tema1/23.mp3')"
+              :audio="require('@/assets/audios/tema1/tema_2_pstañas_b_sympathetic_CF1.wav')"
               )  
             p.text-center.mt-3
               span.f-2.p-2 Marge es <b>comprensiva</b> con sus hijos.
@@ -158,7 +158,7 @@
             .card-audio-bg.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/46.jpg')})`}")
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="The teacher is very patient with her students."
-              :audio="require('@/assets/audios/tema1/25.mp3')"
+              :audio="require('@/assets/audios/tema1/tema_2_pstañas_b_patient_CF1.wav')"
               )  
             p.text-center.mt-3
               span.f-2.p-2 La maestra es muy <b>paciente</b> con sus estudiantes.
@@ -229,7 +229,7 @@
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/f5cwrrqnPEM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     #t_2_1.titulo-segundo.color-primario(data-aos='fade-right')
-      h2 2.1. Comparative adjectives (Adjetivos comparativos)
+      h2 2.1 <em>Comparative adjectives</em> (Adjetivos comparativos)
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/57.png', alt='')
       .col-lg-7.mb-lg-0.mb-3
@@ -277,7 +277,7 @@
             span.r-4.fst-italic Is as productive as
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="This company is as productive as that one"
-              :audio="require('@/assets/audios/tema1/34.mp3')"
+              :audio="require('@/assets/audios/tema1/tema_2.1_infografia_interactiva_productive_CF1.wav')"
               )  
           p.ms-4 Esta empresa es tan productiva como aquella. 
     .row.justify-content-center.mb-5
@@ -298,7 +298,7 @@
             span.r-4.fst-italic is less heavy than
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="That backpack is less heavy than yours. "
-              :audio="require('@/assets/audios/tema1/36.mp3')"
+              :audio="require('@/assets/audios/tema1/tema_2.1_infografia_interactiva_that_backpack_CF1.wav')"
               )  
           p.ms-4 Ese morral está menos pesado que el tuyo.
     h3 <em>Comparative adjectives of equality.</em> / Adjetivos comparativos de igualdad.
@@ -316,7 +316,7 @@
           img.mb-4(src='@/assets/curso/temas/63.svg', alt='')
           .tarjeta-audio-botton
             div.flex-grow-1(style='background-color: #c4d1ff').d-flex.align-items-center.justify-content-center.px-3
-              Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/1.mp3')")
+              Audio.d-inline-block.border-audio.color-primario.m-5(:audio="require('@/assets/audios/tema1/tema_2.1_comparative_equiality_karen_cf1.wav')")
             div.d-flex.flex-grow-1.p-4.w-100.justify-content-center.flex-wrap(style='background-color: #ffe891')
               .d-flex.align-items-center.flex-wrap.mb-lg-0.mb-3.m-2
                 img(src='@/assets/curso/temas/64.svg', alt='' style='width: 54px').me-4
@@ -419,7 +419,7 @@
         .col-lg-8
           TarjetaAudio.color-acento-botones.bg-white.mb-3(
           texto=""
-          :audio="require('@/assets/audios/tema1/45.mp3')"
+          :audio="require('@/assets/audios/tema1/2.1_comparative_example_glass_cf1.wav')"
           ) 
     h3 <em>Comparative adjectives of superiority.</em> / Adjetivos comparativos de superioridad.
     p.mb-5(data-aos='fade-right')
@@ -436,7 +436,7 @@
             img(src='@/assets/curso/temas/81.svg', alt='' ).me-4.mb-3
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Pierre is more efficient than Mary in the office."
-              :audio="require('@/assets/audios/tema1/47.mp3')"
+              :audio="require('@/assets/audios/tema1/2.1_comparative_superiority_piere_cf1.wav')"
               ) 
             p Pierre es más eficiente que Mary en la oficina.
         .col-lg-4
@@ -444,7 +444,7 @@
             img(src='@/assets/curso/temas/82.svg', alt='' ).me-4.mb-3
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Silvia is more organized than Billy at school."
-              :audio="require('@/assets/audios/tema1/48.mp3')"
+              :audio="require('@/assets/audios/tema1/2.1_comparative_superiority_silvia_cf1.wav')"
               ) 
             p Silvia es más ordenada que Billy en la escuela.
         .col-lg-4
@@ -452,7 +452,7 @@
             img(src='@/assets/curso/temas/83.svg', alt='' ).me-4.mb-3
             TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto="Caroline is more interesting than Betty."
-              :audio="require('@/assets/audios/tema1/49.mp3')"
+              :audio="require('@/assets/audios/tema1/2.1_comparative_superiority_caroline_cf1.wav')"
               ) 
             p Caroline es más interesante que Betty.
     .contenedor-franja.margin-n.mb-5
@@ -494,7 +494,7 @@
               .col-lg-3
                 TarjetaAudio.color-primario.bg-white.mb-3(
                 texto="big → bigger"
-                :audio="require('@/assets/audios/tema1/52.mp3')"
+                :audio="require('@/assets/audios/tema1/2.1_warning2_big_cf1.wav')"
                 ) 
                 p.text-white grande → más grande
               .col-lg-3
@@ -534,7 +534,7 @@
             | a penguin.
     Separador
     #t_2_2.titulo-segundo.color-primario(data-aos='fade-right')
-      h2 2.2. Superlative adjectives (Adjetivos superlativos)
+      h2 2.2 <em>Superlative adjectives</em> (Adjetivos superlativos)
     p.mb-5(data-aos='fade-right')
       span.r-4.fst-italic.fw-normal Superlative adjectives are those that serve to indicate the description of an object, person, animal or place that is located at the upper or lower end of a certain quality. For example:
       br
@@ -545,7 +545,7 @@
         .card-audio-bg2.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/87.jpg')})`}")
           .tarjeta.bg-white.p-4
             .d-flex.justify-content-center 
-              Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/54.mp3')")
+              Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/2.2_super_adjectives_tarjeta_avatar_woman_cf1.wav')")
             p.text-center
               span.r-1.fst-italic The  
                 span.r-2.fst-italic most beautiful 
@@ -556,7 +556,7 @@
         .card-audio-bg2.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/88.jpg')})`}")
           .tarjeta.bg-white.p-4
             .d-flex.justify-content-center 
-              Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/55.mp3')")
+              Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/2.2_super_adjectives_tarjeta_avatar_student_cf1.wav')")
             p.text-center
               span.r-1.fst-italic The 
                 span.r-2.fst-italic smartest 
@@ -567,7 +567,7 @@
         .card-audio-bg2.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/89.jpg')})`}")
           .tarjeta.bg-white.p-4
             .d-flex.justify-content-center 
-              Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/56.mp3')")
+              Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/2.2_super_adjectives_tarjeta_avatar_house_cf1.wav')")
             p.text-center
               span.r-1.fst-italic The 
                 span.r-2.fst-italic largest 
@@ -578,7 +578,7 @@
         .card-audio-bg2.d-flex.align-items-end.justify-content-center.p-2(:style="{'background-image': `url(${require('@/assets/curso/temas/90.jpg')})`}")
           .tarjeta.bg-white.p-4
             .d-flex.justify-content-center 
-              Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/57.mp3')")
+              Audio.d-inline-block.color-primario.m-3(:audio="require('@/assets/audios/tema1/2.2_super_adjectives_tarjeta_avatar_kitten_cf1.wav')")
             p.text-center
               span.r-1.fst-italic The 
                 span.r-2.fst-italic cutest 
@@ -1310,7 +1310,7 @@
             .tarjeta.rounded-0.color-secundario.p-3
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/69.mp3')"
+              :audio="require('@/assets/audios/tema1/2.2_tabla_8_cf1.wav')"
               ) 
             .table-title.p-3.mb-4
               p.text-center.fw-bold.mb-0
@@ -1350,7 +1350,7 @@
             .tarjeta.rounded-0.color-secundario.p-3
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/70.mp3')"
+              :audio="require('@/assets/audios/tema1/2.2_tabla_9_cf1.wav')"
               ) 
             .table-title.p-3.mb-4
               p.text-center.fw-bold.mb-0
@@ -1390,7 +1390,7 @@
             .tarjeta.rounded-0.color-secundario.p-3
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/71.mp3')"
+              :audio="require('@/assets/audios/tema1/2.2_tabla_10_cf1.wav')"
               ) 
             .table-title.p-3.mb-4
               p.text-center.fw-bold.mb-0
@@ -1424,13 +1424,13 @@
       .col-lg-3
         .titulo-sexto.color-primario(data-aos='fade-right')
           h5 Tabla 11
-          span El adjetivo”Little” / Pequeño
+          span El adjetivo ”Little” / Pequeño
         .table-purple
           .table-purple__top
             .tarjeta.rounded-0.color-secundario.p-3
               TarjetaAudio.color-acento-botones.bg-white.mb-3(
               texto=""
-              :audio="require('@/assets/audios/tema1/72.mp3')"
+              :audio="require('@/assets/audios/tema1/2.2_tabla_11_cf1.wav')"
               ) 
             .table-title.p-3.mb-4
               p.text-center.fw-bold.mb-0
