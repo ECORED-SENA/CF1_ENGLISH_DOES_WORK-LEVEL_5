@@ -1558,32 +1558,32 @@ export default {
           textoIng:
             'Tell me, Karol, isn’t this a beautiful design for my kitchen?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
+          audio: require('@/assets/audios/d2/1.wav'),
         },
         {
           personaje: 'Karol',
           textoIng: 'Yes, I think so. And, who is the designer?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
+          audio: require('@/assets/audios/d2/2.wav'),
         },
         {
           personaje: 'Susy',
           textoIng:
             'You won’t believe it! I took this amazing design out of a magazine.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
+          audio: require('@/assets/audios/d2/3.wav'),
         },
         {
           personaje: 'Karol',
           textoIng: 'Wow. Really, it’s a spectacular design for your kitchen.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
+          audio: require('@/assets/audios/d2/4.wav'),
         },
         {
           personaje: 'Susy',
           textoIng: 'Yes. I want an amazing environment here in the kitchen.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
+          audio: require('@/assets/audios/d2/5.wav'),
         },
       ],
     },
@@ -1603,14 +1603,14 @@ export default {
           personaje: 'Susy',
           textoIng: ' Isn’t this a *** design for my kitchen?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
+          audio: require('@/assets/audios/a2/1.wav'),
           palabra: 'beautiful',
         },
         {
           personaje: 'Karol',
           textoIng: 'I took *** design out of a magazine.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
+          audio: require('@/assets/audios/a2/2.wav'),
           palabra: 'amazing',
         },
       ],
@@ -1618,73 +1618,77 @@ export default {
     dialogoTres: {
       personajes: [
         {
-          nombre: 'Charles',
-          img: require('@/assets/curso/temas/Charles.png'),
+          nombre: 'Peter',
+          img: require('@/assets/curso/temas/Peter.png'),
         },
         {
-          nombre: 'Billy',
-          img: require('@/assets/curso/temas/Billy.png'),
+          nombre: 'Caitlyn',
+          img: require('@/assets/curso/temas/Caitlyn.png'),
         },
       ],
       dialogo: [
         {
-          personaje: 'Charles',
-          textoIng: 'Hi, Billy. What are you doing with those binoculars?',
+          personaje: 'Peter',
+          textoIng: 'Hi Caitlyn! What are you doing?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
+          audio: require('@/assets/audios/d3/1.mp3'),
         },
         {
-          personaje: 'Billy',
-          textoIng: 'I’m enjoying the scenery in the pool.',
-          textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
-        },
-        {
-          personaje: 'Charles',
-          textoIng: 'Look, Fanny is the most beautiful of all the girls there.',
-          textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
-        },
-        {
-          personaje: 'Billy',
-          textoIng: 'Sure? I think she is a little fat.',
-          textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
-        },
-        {
-          personaje: 'Charles',
+          personaje: 'Caitlyn',
           textoIng:
-            'Of course not! She looks as slim as your girlfriend Cindy.',
+            'Hey Peter! I am really tired; these are really difficult days at work.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
+          audio: require('@/assets/audios/d3/2.wav'),
+        },
+        {
+          personaje: 'Peter',
+          textoIng:
+            'Oh! That’s true, this is a very intense month for your company!',
+          textoEsp: '',
+          audio: require('@/assets/audios/d3/3.mp3'),
+        },
+        {
+          personaje: 'Caitlyn',
+          textoIng:
+            'Yes, fortunately, we have incredibly smart people working with us.',
+          textoEsp: '',
+          audio: require('@/assets/audios/d3/4.wav'),
+        },
+        {
+          personaje: 'Peter',
+          textoIng:
+            'You are right, they are extremely hardworking people, I miss working with your incredible team.',
+          textoEsp: '',
+          audio: require('@/assets/audios/d3/5.mp3'),
         },
       ],
     },
     dialogoCuatro: {
       personajes: [
         {
-          nombre: 'Charles',
-          img: require('@/assets/curso/temas/Charles.png'),
+          nombre: 'Peter',
+          img: require('@/assets/curso/temas/Peter.png'),
         },
         {
-          nombre: 'Billy',
-          img: require('@/assets/curso/temas/Billy.png'),
+          nombre: 'Caitlyn',
+          img: require('@/assets/curso/temas/Caitlyn.png'),
         },
       ],
       dialogo: [
         {
-          personaje: 'Charles',
-          textoIng: ' Fanny is *** of all the girls there.',
+          personaje: 'Caitlyn',
+          textoIng: ' I am really *** these are really difficult days at work',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
-          palabra: 'the most beautiful',
+          audio: require('@/assets/audios/a3/1.wav'),
+          palabra: 'tired',
         },
         {
-          personaje: 'Billy',
-          textoIng: 'Fanny looks *** your girl Cindy. ',
+          personaje: 'Caitlyn',
+          textoIng:
+            'Fortunately, we have incredibly *** people working with us.',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
-          palabra: 'as slim as',
+          audio: require('@/assets/audios/a3/2.wav'),
+          palabra: 'smart',
         },
       ],
     },

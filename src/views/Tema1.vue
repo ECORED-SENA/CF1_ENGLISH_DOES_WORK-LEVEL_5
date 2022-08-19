@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Simple present tense (Tiempo presente simple)
+      h1 <em>Simple present tense</em> (Tiempo presente simple)
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-3: img(src='@/assets/curso/temas/1.png', alt='')
       .col-lg-7.mb-lg-0.mb-3
@@ -450,7 +450,7 @@
                   span.r-1 cry
                 td 
                   span.r-1 I cry. 
-                  | /Yo lloro.
+                  | / Yo lloro.
               tr
                 td 2.ª persona
                 td 
@@ -469,7 +469,7 @@
                 td
                   span.r-1 cries
                 td 
-                  span.r-1 He cries. 
+                  span.r-1 He cries  
                   | / Él llora.
               tr.bg-rc
                 td 
@@ -478,16 +478,16 @@
                 td
                   span.r-1 cries
                 td 
-                  span.r-1 She cries. 
+                  span.r-1 She cries.  
                   | / Ella llora.
               tr.bg-rc
                 td 
                   span.r-1 It 
-                  |/ Ello
+                  | / Ello
                 td
                   span.r-1 cries
                 td 
-                  span.r-1 It cries. 
+                  span.r-1 It cries.  
                   | / Ello llora.
               tr
                 td(rowspan='3') Plural
@@ -498,7 +498,7 @@
                 td
                   span.r-1 cry
                 td 
-                  span.r-1 We cry. 
+                  span.r-1 We cry.  
                   | / Nosotros lloramos.
               tr
                 td 2.ª persona
@@ -508,17 +508,17 @@
                 td
                   span.r-1 cry
                 td 
-                  span.r-1 You cry. 
+                  span.r-1 You cry.  
                   | / Ustedes lloran.
               tr
                 td 3.ª persona
                 td 
-                  span.r-1 They 
+                  span.r-1 They   
                   | / Ellos (as)
                 td
                   span.r-1 cry
                 td 
-                  span.r-1 They cry. 
+                  span.r-1 They cry.  
                   | / Ellos(as) lloran.
     p.mb-5(data-aos='fade-right')
       span.r-4.fw-normal.fst-italic Also, when the verbs end in "o", "sh", "ch", "ss", "x", "z", in simple present tense, “es” must be added at the end when conjugating the third-person singular.
@@ -612,7 +612,7 @@
               tr.fw-bold
                 td(colspan='2') 
                   span.r-1.fst-italic Grammatical person 
-                  | /Persona gramatical
+                  | / Persona gramatical
                 td 
                   span.r-1 Pronoun
                   br
@@ -632,7 +632,7 @@
                   span.r-1 I 
                   |/ Yo
                 td
-                  span.r-1 live 
+                  span.r-1 live  
                   | / vivo
                 td 
                   span.r-1 in Colombia 
@@ -652,7 +652,7 @@
                 td(rowspan='3') 3.ªpersona
                 td 
                   span.r-1 He 
-                  |/ Él
+                  | / Él
                 td
                   span.r-1 lives  
                   | / vive
@@ -672,7 +672,7 @@
               tr.bg-rc
                 td 
                   span.r-1 It 
-                  |/ Ello
+                  | / Ello
                 td
                   span.r-1 lives  
                   | / vive
@@ -684,12 +684,12 @@
                 td 1.ª persona
                 td 
                   span.r-1 We 
-                  |/ Nosotros
+                  | / Nosotros
                 td
                   span.r-1 live 
-                  | / vivimos
+                  | / vivimos 
                 td 
-                  span.r-1 in Colombia 
+                  span.r-1 in Colombia  
                   | / en Colombia.
               tr
                 td 2.ª persona
@@ -708,7 +708,7 @@
                   span.r-1 They  
                   | / Ellos (as)
                 td
-                  span.r-1 live
+                  span.r-1 live 
                   | / viven
                 td 
                   span.r-1 in Colombia 
@@ -757,7 +757,7 @@
                 td.bg-rc 
                   span.r-1.fst-italic Auxiliary verb (to do) + Negation (not) 
                   br
-                  span.fw-bold  Verbo auxiliar (to do) + Negación (not)
+                  span.fw-bold  Verbo auxiliar <em>(to do)</em> + Negación <em>(not)</em>
                 td 
                   span.r-1.fst-italic Verb
                   br
@@ -919,7 +919,7 @@
                   span.r-1.fst-italic live 
                   span.fw-bold / vivo
                 td 
-                  span.r-1.fst-italic in Colombia
+                  span.r-1.fst-italic in Colombia 
                   | / en Colombia ?
               tr
                 td.bg-rc.fst-italic Do
@@ -1193,31 +1193,31 @@ export default {
           personaje: 'Paul',
           textoIng: 'July, do you want to go to the movies?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
+          audio: require('@/assets/audios/d1/1.mp3'),
         },
         {
           personaje: 'July',
           textoIng: 'That’s fine. Which movie do you want to watch?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
+          audio: require('@/assets/audios/d1/2.wav'),
         },
         {
           personaje: 'Paul',
           textoIng: 'I want to see “Jurassic World Dominion.”',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
+          audio: require('@/assets/audios/d1/3.mp3'),
         },
         {
           personaje: 'July',
           textoIng: 'That’s an excellent choice! I love the protagonist!',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
+          audio: require('@/assets/audios/d1/4.wav'),
         },
         {
           personaje: 'Paul',
           textoIng: 'Well, I have very good taste in everything!',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
+          audio: require('@/assets/audios/d1/5.mp3'),
         },
       ],
     },
@@ -1237,14 +1237,14 @@ export default {
           personaje: 'Paul',
           textoIng: 'Do you *** to go to the movies?',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
+          audio: require('@/assets/audios/a1/1.mp3'),
           palabra: 'want',
         },
         {
           personaje: 'July',
           textoIng: 'I ***  the protagonist',
           textoEsp: '',
-          audio: require('@/assets/audios/tema1/1.mp3'),
+          audio: require('@/assets/audios/a1/2.wav'),
           palabra: 'love',
         },
       ],
