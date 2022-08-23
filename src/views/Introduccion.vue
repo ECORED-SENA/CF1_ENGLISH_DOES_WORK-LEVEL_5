@@ -19,18 +19,18 @@
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp') Ver traducción
       .col-lg-5.col-8: img(src='@/assets/curso/temas/0.jpg', alt='')
     p.mb-5(data-aos='fade-right') Se invita a explorar el siguiente video introductorio que se presenta a continuación:
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Syt_rvxtLvo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    p.mb-5(data-aos='fade-right') Si desea practicar, el siguiente PDF presenta los textos del video anterior, tanto en inglés como en español.
-    .row.justify-content-center
-      .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/introduction.pdf')" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Anexo. Guion video Introducción
-    
+    .tarjeta-introduccion
+      .row.justify-content-center
+        .col-lg-3
+        .col-lg-6
+          p.fw-bold.fst-italic Welcome to this training component, in which you will learn to express yourself in English using the simple present tense, as well as its function, form and pronunciation. You will also learn how to indicate differences and similarities between living beings, objects and places. With the help of examples we will go through comparative adjectives in their various degrees and superlative adjectives to be able to indicate characteristics of everything which surrounds us! Let's begin!
+          TarjetaAudio.color-acento-botones.bg-white.mb-3(
+            texto=""
+            :audio="require('@/assets/audios/tema1/intro.wav')"
+            )  
+      .tarjeta-introduccion__img.d-none.d-lg-block: img(src='@/assets/curso/temas/introduccion.png', alt='')
+          
+
 </template>
 
 <script>
@@ -42,4 +42,19 @@ export default {
 }
 </script>
 
-<style lang="sass"></style>
+<style lang="sass">
+.tarjeta-introduccion
+  @media (min-width: $bp-min-lg)
+    margin-top: 200px
+    border-radius: 0px 150px 0px 200px
+    margin-left: 20px
+  border-radius: 20px
+  background-color: #c4d1ff
+  padding: 3rem
+  position: relative
+  &__img
+    position: absolute
+    width: 400px
+    bottom: 0
+    left: -1%
+</style>
