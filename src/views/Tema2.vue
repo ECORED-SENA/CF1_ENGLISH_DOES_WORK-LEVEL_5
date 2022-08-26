@@ -1493,7 +1493,7 @@
         .tarjeta.p-4.color-primario.bg-claro
           DialogoChat.color-primario(:dialogo="dialogoTres")
     p.mb-5(data-aos='fade-right') Luego realice los siguientes ejercicios:
-    Dialogo.color-secundario(:dialogo="dialogoCuatro")
+    Dialogo.color-secundario(:dialogo="dialogoCuatro").mb-5
       template(#nombre-actividad) Tipo de actividad (completar, puzle, pronunciación, etc)
       template(#titulo-actividad) Qualifying adjectives - Completa la conversación
       template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
