@@ -1158,13 +1158,8 @@
     p.mb-5(data-aos='fade-right') Luego realice los siguientes ejercicios:
     Dialogo.color-secundario(:dialogo="dialogoDos").mb-5
       template(#nombre-actividad) Tipo de actividad (completar, puzle, pronunciación, etc)
-<<<<<<< HEAD
       template(#titulo-actividad) Simple present tense pronunciation - Completa la conversación
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
-
-=======
-      template(#titulo-actividad) Simple present tense pronunciatio - Completa la conversación
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
     .titulo-segundo.color-primario(data-aos='fade-right')
       h2 Actividad Didactica 
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
@@ -1184,7 +1179,6 @@
               a.boton.boton--b(:href="obtenerLink('/actividades/a1/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
->>>>>>> 5a793b7a2519c59f7f7a896d30d57fdca888e682
 
 
 

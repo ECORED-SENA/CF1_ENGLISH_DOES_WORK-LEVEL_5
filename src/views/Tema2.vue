@@ -1496,11 +1496,7 @@
     Dialogo.color-secundario(:dialogo="dialogoCuatro").mb-5
       template(#nombre-actividad) Tipo de actividad (completar, puzle, pronunciación, etc)
       template(#titulo-actividad) Qualifying adjectives - Completa la conversación
-<<<<<<< HEAD
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
-
-=======
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
     .titulo-segundo.color-primario(data-aos='fade-right')
       h2 Actividad Didactica 
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
@@ -1520,7 +1516,6 @@
               a.boton.boton--b(:href="obtenerLink('/actividades/a2/story.html')" target="_blank")
                 span Realizar
                 i.fas.fa-puzzle-piece
->>>>>>> 5a793b7a2519c59f7f7a896d30d57fdca888e682
 
 
 
