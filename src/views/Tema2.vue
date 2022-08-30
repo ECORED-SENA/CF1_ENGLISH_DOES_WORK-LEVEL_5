@@ -1486,7 +1486,7 @@
     Dialogo.color-secundario(:dialogo="dialogoDos").mb-5
       template(#nombre-actividad) Tipo de actividad (completar, puzle, pronunciación, etc)
       template(#titulo-actividad) Qualifying adjectives - Completa la conversación
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
     .row.justify-content-center.mb-5
       .col-lg-8
         h4 Dialogue 03   Qualifying adjectives
@@ -1496,7 +1496,7 @@
     Dialogo.color-secundario(:dialogo="dialogoCuatro")
       template(#nombre-actividad) Tipo de actividad (completar, puzle, pronunciación, etc)
       template(#titulo-actividad) Qualifying adjectives - Completa la conversación
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 
 
 
@@ -1608,7 +1608,7 @@ export default {
         },
         {
           personaje: 'Karol',
-          textoIng: 'I took *** design out of a magazine.',
+          textoIng: 'I took this *** design out of a magazine.',
           textoEsp: '',
           audio: require('@/assets/audios/a2/2.wav'),
           palabra: 'amazing',

@@ -140,7 +140,7 @@
                 img(src='@/assets/curso/temas/15.svg' alt='AvatarTop' style='width: 68px').mb-4
                 h5.text-center.fst-italic We work from<br> Monday to Friday.
     p.mb-5(data-aos='fade-right')
-      span.r-2.fst-italic.fw-normal In addition, it can be used to establish an appointment, agreement or to indicate the moment in which a specific event is going to take place. In general terms, it is used to d about hobbies, habits and attitudes of a person.
+      span.r-2.fst-italic.fw-normal In addition, it can be used to establish an appointment, agreement or to indicate the moment in which a specific event is going to take place. In general terms, it is used to talk about hobbies, habits and attitudes of a person.
       br
       br
       |Aunado a lo anterior, puede indicarse que sirve para establecer una cita, acuerdo o señalar el momento en que va a desarrollarse un acontecimiento específico. En líneas generales, se usa para hablar de pasatiempos, hábitos y actitudes de una persona.
@@ -938,7 +938,7 @@
                   span.r-1.fst-italic He 
                   span.fw-bold / Él
                 td
-                  span.r-1.fst-italic lives 
+                  span.r-1.fst-italic live 
                   span.fw-bold / vive
                 td 
                   span.r-1.fst-italic in Colombia 
@@ -949,7 +949,7 @@
                   span.r-1.fst-italic She 
                   span.fw-bold / Ella
                 td
-                  span.r-1.fst-italic lives 
+                  span.r-1.fst-italic live
                   span.fw-bold / vive
                 td 
                   span.r-1.fst-italic in Colombia 
@@ -960,7 +960,7 @@
                   span.r-1.fst-italic It 
                   span.fw-bold / Ello
                 td
-                  span.r-1.fst-italic lives 
+                  span.r-1.fst-italic live
                   span.fw-bold / vive
                 td 
                   span.r-1.fst-italic in Colombia 
@@ -1158,8 +1158,8 @@
     p.mb-5(data-aos='fade-right') Luego realice los siguientes ejercicios:
     Dialogo.color-secundario(:dialogo="dialogoDos")
       template(#nombre-actividad) Tipo de actividad (completar, puzle, pronunciación, etc)
-      template(#titulo-actividad) Simple present tense pronunciatio - Completa la conversación
-      template(#descripcion-actividad) Arrastra y suelta el cada una de las palabras en el orden correcto.
+      template(#titulo-actividad) Simple present tense pronunciation - Completa la conversación
+      template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
 
 
 

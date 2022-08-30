@@ -75,7 +75,7 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.2',
+            numero: '2.2',
             titulo: '<em>Superlative adjectives</em> (Adjetivos superlativos)',
             hash: 't_2_2',
           },
@@ -127,7 +127,7 @@ export default {
       tema:
         'Simple present tense function (Función del tiempo presente simple)',
       referencia:
-        'McLellan, C. (2019). ¿Cómo y cuándo se usa el "presente simple" en inglés? British Council España. ',
+        'McLellan, C. (2019). ¿Cómo y cuándo se usa el "present simple" en inglés? British Council España. ',
       tipo: 'Artículo',
       link: 'https://www.britishcouncil.es/blog/presente-simple',
     },
