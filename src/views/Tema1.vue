@@ -794,7 +794,7 @@
                   | /Él
                 td.bg-rc.fw-bold.fst-italic does + not  → doesn’t
                 td
-                  span.r-1.fst-italic lives 
+                  span.r-1.fst-italic live
                   span.fw-bold / vive
                 td 
                   span.r-1.fst-italic in Colombia 
@@ -805,7 +805,7 @@
                   | / Ella
                 td.bg-rc.fw-bold.fst-italic does + not  → doesn’t
                 td
-                  span.r-1.fst-italic lives 
+                  span.r-1.fst-italic live
                   span.fw-bold / vive
                 td 
                   span.r-1.fst-italic in Colombia 
@@ -816,7 +816,7 @@
                   | / Ello
                 td.bg-rc.fw-bold.fst-italic does + not  → doesn’t
                 td
-                  span.r-1.fst-italic lives 
+                  span.r-1.fst-italic live
                   span.fw-bold / vive
                 td 
                   span.r-1.fst-italic in Colombia 
